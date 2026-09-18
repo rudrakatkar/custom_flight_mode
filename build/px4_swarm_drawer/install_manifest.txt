@@ -1,0 +1,16 @@
+/home/rudra/custom_flightmode/install/px4_swarm_drawer/lib/px4_swarm_drawer/swarm_mode_node
+/home/rudra/custom_flightmode/install/px4_swarm_drawer/share/ament_index/resource_index/package_run_dependencies/px4_swarm_drawer
+/home/rudra/custom_flightmode/install/px4_swarm_drawer/share/ament_index/resource_index/parent_prefix_path/px4_swarm_drawer
+/home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/environment/ament_prefix_path.sh
+/home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/environment/ament_prefix_path.dsv
+/home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/environment/path.sh
+/home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/environment/path.dsv
+/home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/local_setup.bash
+/home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/local_setup.sh
+/home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/local_setup.zsh
+/home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/local_setup.dsv
+/home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/package.dsv
+/home/rudra/custom_flightmode/install/px4_swarm_drawer/share/ament_index/resource_index/packages/px4_swarm_drawer
+/home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/cmake/px4_swarm_drawerConfig.cmake
+/home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/cmake/px4_swarm_drawerConfig-version.cmake
+/home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/package.xml

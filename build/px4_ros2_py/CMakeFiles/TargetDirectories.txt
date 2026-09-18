@@ -1,0 +1,12 @@
+/home/rudra/custom_flightmode/build/px4_ros2_py/CMakeFiles/uninstall.dir
+/home/rudra/custom_flightmode/build/px4_ros2_py/CMakeFiles/px4_ros2_py_uninstall.dir
+/home/rudra/custom_flightmode/build/px4_ros2_py/CMakeFiles/ament_cmake_python_copy_px4_ros2.dir
+/home/rudra/custom_flightmode/build/px4_ros2_py/CMakeFiles/ament_cmake_python_build_px4_ros2_egg.dir
+/home/rudra/custom_flightmode/build/px4_ros2_py/CMakeFiles/px4_ros2_py.dir
+/home/rudra/custom_flightmode/build/px4_ros2_py/CMakeFiles/test.dir
+/home/rudra/custom_flightmode/build/px4_ros2_py/CMakeFiles/edit_cache.dir
+/home/rudra/custom_flightmode/build/px4_ros2_py/CMakeFiles/rebuild_cache.dir
+/home/rudra/custom_flightmode/build/px4_ros2_py/CMakeFiles/list_install_components.dir
+/home/rudra/custom_flightmode/build/px4_ros2_py/CMakeFiles/install.dir
+/home/rudra/custom_flightmode/build/px4_ros2_py/CMakeFiles/install/local.dir
+/home/rudra/custom_flightmode/build/px4_ros2_py/CMakeFiles/install/strip.dir
