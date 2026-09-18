@@ -1,0 +1,40 @@
+[0.059s] Invoking command in '/home/rudra/custom_flightmode/build/px4_ros2_py': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudra/custom_flightmode/build/px4_ros2_py -- -j12 -l12
+[0.175s] [  0%] Built target ament_cmake_python_copy_px4_ros2
+[0.221s] [100%] Built target px4_ros2_py
+[0.539s] running egg_info
+[0.565s] writing px4_ros2.egg-info/PKG-INFO
+[0.565s] writing dependency_links to px4_ros2.egg-info/dependency_links.txt
+[0.566s] writing top-level names to px4_ros2.egg-info/top_level.txt
+[0.645s] reading manifest file 'px4_ros2.egg-info/SOURCES.txt'
+[0.646s] writing manifest file 'px4_ros2.egg-info/SOURCES.txt'
+[0.701s] [100%] Built target ament_cmake_python_build_px4_ros2_egg
+[0.718s] Invoked command in '/home/rudra/custom_flightmode/build/px4_ros2_py' returned '0': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudra/custom_flightmode/build/px4_ros2_py -- -j12 -l12
+[0.719s] Invoking command in '/home/rudra/custom_flightmode/build/px4_ros2_py': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rudra/custom_flightmode/build/px4_ros2_py
+[0.730s] -- Install configuration: ""
+[0.730s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/share/px4_ros2_py/environment/pythonpath.sh
+[0.730s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/share/px4_ros2_py/environment/pythonpath.dsv
+[0.730s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/local/lib/python3.10/dist-packages/px4_ros2-0.0.1-py3.10.egg-info
+[0.730s] -- Installing: /home/rudra/custom_flightmode/install/px4_ros2_py/local/lib/python3.10/dist-packages/px4_ros2-0.0.1-py3.10.egg-info/SOURCES.txt
+[0.730s] -- Installing: /home/rudra/custom_flightmode/install/px4_ros2_py/local/lib/python3.10/dist-packages/px4_ros2-0.0.1-py3.10.egg-info/top_level.txt
+[0.730s] -- Installing: /home/rudra/custom_flightmode/install/px4_ros2_py/local/lib/python3.10/dist-packages/px4_ros2-0.0.1-py3.10.egg-info/PKG-INFO
+[0.730s] -- Installing: /home/rudra/custom_flightmode/install/px4_ros2_py/local/lib/python3.10/dist-packages/px4_ros2-0.0.1-py3.10.egg-info/dependency_links.txt
+[0.730s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/local/lib/python3.10/dist-packages/px4_ros2
+[0.731s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/local/lib/python3.10/dist-packages/px4_ros2/__init__.py
+[0.768s] Listing '/home/rudra/custom_flightmode/install/px4_ros2_py/local/lib/python3.10/dist-packages/px4_ros2'...
+[0.778s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/local/lib/python3.10/dist-packages/px4_ros2/px4_ros2_py.cpython-310-x86_64-linux-gnu.so
+[0.778s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/share/ament_index/resource_index/package_run_dependencies/px4_ros2_py
+[0.779s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/share/ament_index/resource_index/parent_prefix_path/px4_ros2_py
+[0.779s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/share/px4_ros2_py/environment/ament_prefix_path.sh
+[0.779s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/share/px4_ros2_py/environment/ament_prefix_path.dsv
+[0.779s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/share/px4_ros2_py/environment/path.sh
+[0.779s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/share/px4_ros2_py/environment/path.dsv
+[0.779s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/share/px4_ros2_py/local_setup.bash
+[0.779s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/share/px4_ros2_py/local_setup.sh
+[0.779s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/share/px4_ros2_py/local_setup.zsh
+[0.779s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/share/px4_ros2_py/local_setup.dsv
+[0.779s] -- Installing: /home/rudra/custom_flightmode/install/px4_ros2_py/share/px4_ros2_py/package.dsv
+[0.779s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/share/ament_index/resource_index/packages/px4_ros2_py
+[0.780s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/share/px4_ros2_py/cmake/px4_ros2_pyConfig.cmake
+[0.780s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/share/px4_ros2_py/cmake/px4_ros2_pyConfig-version.cmake
+[0.780s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_py/share/px4_ros2_py/package.xml
+[0.783s] Invoked command in '/home/rudra/custom_flightmode/build/px4_ros2_py' returned '0': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rudra/custom_flightmode/build/px4_ros2_py

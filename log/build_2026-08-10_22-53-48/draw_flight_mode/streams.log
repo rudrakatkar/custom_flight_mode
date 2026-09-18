@@ -1,0 +1,26 @@
+[0.015s] Invoking command in '/home/rudra/custom_flightmode/build/draw_flight_mode': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudra/custom_flightmode/build/draw_flight_mode -- -j12 -l12
+[0.090s] Consolidate compiler generated dependencies of target draw_r
+[0.112s] [ 50%] Building CXX object CMakeFiles/draw_r.dir/src/main.cpp.o
+[14.959s] /home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp: In constructor ‘Drone1Node::Drone1Node(const string&, bool, const rclcpp::NodeOptions&, const string&, const string&)’:
+[14.959s] /home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:47:51: error: ignoring return value of ‘rcutils_ret_t rcutils_logging_set_logger_level(const char*, int)’ declared with attribute ‘warn_unused_result’ [-Werror=unused-result]
+[14.959s]    47 |             (void)rcutils_logging_set_logger_level(
+[14.959s]       |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[14.959s]    48 |                 get_logger().get_name(), RCUTILS_LOG_SEVERITY_DEBUG);
+[14.960s]       |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[14.960s] /home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp: In constructor ‘Drone2Node::Drone2Node(const string&, bool, const rclcpp::NodeOptions&, const string&, const string&)’:
+[14.960s] /home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:75:45: error: ignoring return value of ‘rcutils_ret_t rcutils_logging_set_logger_level(const char*, int)’ declared with attribute ‘warn_unused_result’ [-Werror=unused-result]
+[14.960s]    75 |             rcutils_logging_set_logger_level(
+[14.960s]       |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[14.960s]    76 |                 get_logger().get_name(), RCUTILS_LOG_SEVERITY_DEBUG);
+[14.960s]       |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[14.960s] /home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp: In constructor ‘Drone3Node::Drone3Node(const string&, bool, const rclcpp::NodeOptions&, const string&, const string&)’:
+[14.960s] /home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:103:45: error: ignoring return value of ‘rcutils_ret_t rcutils_logging_set_logger_level(const char*, int)’ declared with attribute ‘warn_unused_result’ [-Werror=unused-result]
+[14.960s]   103 |             rcutils_logging_set_logger_level(
+[14.960s]       |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[14.960s]   104 |                 get_logger().get_name(), RCUTILS_LOG_SEVERITY_DEBUG);
+[14.960s]       |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[14.960s] cc1plus: all warnings being treated as errors
+[14.961s] gmake[2]: *** [CMakeFiles/draw_r.dir/build.make:76: CMakeFiles/draw_r.dir/src/main.cpp.o] Error 1
+[14.962s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/draw_r.dir/all] Error 2
+[14.962s] gmake: *** [Makefile:146: all] Error 2
+[14.964s] Invoked command in '/home/rudra/custom_flightmode/build/draw_flight_mode' returned '2': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudra/custom_flightmode/build/draw_flight_mode -- -j12 -l12

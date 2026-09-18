@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target swarm_mode_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/swarm_mode_node.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable swarm_mode_node[0m
+[100%] Built target swarm_mode_node
+-- Install configuration: ""
+-- Installing: /home/rudra/custom_flightmode/install/px4_swarm_drawer/lib/px4_swarm_drawer/swarm_mode_node
+-- Set runtime path of "/home/rudra/custom_flightmode/install/px4_swarm_drawer/lib/px4_swarm_drawer/swarm_mode_node" to ""
+-- Installing: /home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/launch
+-- Installing: /home/rudra/custom_flightmode/install/px4_swarm_drawer/share/ament_index/resource_index/package_run_dependencies/px4_swarm_drawer
+-- Installing: /home/rudra/custom_flightmode/install/px4_swarm_drawer/share/ament_index/resource_index/parent_prefix_path/px4_swarm_drawer
+-- Installing: /home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/environment/ament_prefix_path.sh
+-- Installing: /home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/environment/ament_prefix_path.dsv
+-- Installing: /home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/environment/path.sh
+-- Installing: /home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/environment/path.dsv
+-- Installing: /home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/local_setup.bash
+-- Installing: /home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/local_setup.sh
+-- Installing: /home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/local_setup.zsh
+-- Installing: /home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/local_setup.dsv
+-- Installing: /home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/package.dsv
+-- Installing: /home/rudra/custom_flightmode/install/px4_swarm_drawer/share/ament_index/resource_index/packages/px4_swarm_drawer
+-- Installing: /home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/cmake/px4_swarm_drawerConfig.cmake
+-- Installing: /home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/cmake/px4_swarm_drawerConfig-version.cmake
+-- Installing: /home/rudra/custom_flightmode/install/px4_swarm_drawer/share/px4_swarm_drawer/package.xml

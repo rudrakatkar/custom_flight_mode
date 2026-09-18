@@ -1,0 +1,88 @@
+[0.058s] Invoking command in '/home/rudra/custom_flightmode/build/draw_flight_mode': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudra/custom_flightmode/build/draw_flight_mode -- -j12 -l12
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target draw_r[0m
+[0.204s] [ 50%] [32mBuilding CXX object CMakeFiles/draw_r.dir/src/main.cpp.o[0m
+[6.868s] In file included from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:34[m[K:
+[6.868s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode_diagonal.hpp:[m[K In member function ‘[01m[Kvirtual void DrawDiagonalMode::updateSetpoint(float)[m[K’:
+[6.868s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode_diagonal.hpp:74:69:[m[K [01;31m[Kerror: [m[K‘[01m[KDiag_width_m[m[K’ was not declared in this scope; did you mean ‘[01m[KkDiag_width_m[m[K’?
+[6.868s]    74 |           _start_position_m + Eigen::Vector3f{kDiag_length_m / 2.f, [01;31m[KDiag_width_m[m[K, 0.f};
+[6.868s]       |                                                                     [01;31m[K^~~~~~~~~~~~[m[K
+[6.868s]       |                                                                     [32m[KkDiag_width_m[m[K
+[6.868s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode_diagonal.hpp:74:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Matrix<float, 3, 1>::Matrix(<brace-enclosed initializer list>)[m[K’
+[6.868s]    74 |           _start_position_m + Eigen::Vector3f{kDiag_length_m / 2.f, Diag_width_m, 0.f[01;31m[K}[m[K;
+[6.868s]       |                                                                                      [01;31m[K^[m[K
+[6.868s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[6.869s]                  from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode.hpp:3[m[K,
+[6.869s]                  from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:32[m[K:
+[6.869s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:435:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::RotationBase<OtherDerived, Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::ColsAtCompileTime>&) [with OtherDerived = OtherDerived; _Scalar = float; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1][m[K’
+[6.869s]   435 |     explicit [01;36m[KMatrix[m[K(const RotationBase<OtherDerived,ColsAtCompileTime>& r);
+[6.869s]       |              [01;36m[K^~~~~~[m[K
+[6.869s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:435:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.869s] In file included from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:34[m[K:
+[6.869s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode_diagonal.hpp:74:86:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::RotationBase<OtherDerived, 1>[m[K’ and ‘[01m[Kfloat[m[K’
+[6.869s]    74 |           _start_position_m + Eigen::Vector3f{kDiag_length_m / 2.f, Diag_width_m, 0.f[01;36m[K}[m[K;
+[6.869s]       |                                                                                      [01;36m[K^[m[K
+[6.869s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[6.869s]                  from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode.hpp:3[m[K,
+[6.869s]                  from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:32[m[K:
+[6.869s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:422:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class OtherDerived> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::EigenBase<OtherDerived>&) [with OtherDerived = OtherDerived; _Scalar = float; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1][m[K’
+[6.869s]   422 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const EigenBase<OtherDerived> &other)
+[6.869s]       |                         [01;36m[K^~~~~~[m[K
+[6.870s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:422:25:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.870s] In file included from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:34[m[K:
+[6.870s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode_diagonal.hpp:74:86:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::EigenBase<Derived>[m[K’ and ‘[01m[Kfloat[m[K’
+[6.870s]    74 |           _start_position_m + Eigen::Vector3f{kDiag_length_m / 2.f, Diag_width_m, 0.f[01;36m[K}[m[K;
+[6.870s]       |                                                                                      [01;36m[K^[m[K
+[6.870s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[6.870s]                  from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode.hpp:3[m[K,
+[6.870s]                  from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:32[m[K:
+[6.870s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:337:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T0, class T1> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T0&, const T1&) [with T0 = T0; T1 = T1; _Scalar = float; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1][m[K’
+[6.871s]   337 |     [01;36m[KMatrix[m[K(const T0& x, const T1& y)
+[6.871s]       |     [01;36m[K^~~~~~[m[K
+[6.871s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:337:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.871s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:329:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const T&) [with T = T; _Scalar = float; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1][m[K’
+[6.871s]   329 |     explicit [01;36m[KMatrix[m[K(const T& x)
+[6.871s]       |              [01;36m[K^~~~~~[m[K
+[6.871s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:329:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.871s] In file included from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:34[m[K:
+[6.871s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode_diagonal.hpp:74:86:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[6.871s]    74 |           _start_position_m + Eigen::Vector3f{kDiag_length_m / 2.f, Diag_width_m, 0.f[01;36m[K}[m[K;
+[6.871s]       |                                                                                      [01;36m[K^[m[K
+[6.871s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+[6.871s]                  from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode.hpp:3[m[K,
+[6.871s]                  from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:32[m[K:
+[6.871s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:296:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... ArgTypes> Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&, const ArgTypes& ...) [with ArgTypes = {ArgTypes ...}; _Scalar = float; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1][m[K’
+[6.871s]   296 |     [01;36m[KMatrix[m[K(const Scalar& a0, const Scalar& a1, const Scalar& a2,  const Scalar& a3, const ArgTypes&... args)
+[6.871s]       |     [01;36m[K^~~~~~[m[K
+[6.872s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:296:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.872s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:414:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&) [with _Scalar = float; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1][m[K’
+[6.872s]   414 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Matrix& other) : Base(other)
+[6.872s]       |                         [01;36m[K^~~~~~[m[K
+[6.872s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:414:25:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[6.872s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:401:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&, const Scalar&) [with _Scalar = float; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = float][m[K’
+[6.872s]   401 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z, const Scalar& w)
+[6.872s]       |                         [01;36m[K^~~~~~[m[K
+[6.872s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:401:25:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[6.872s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:389:25:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const Scalar&, const Scalar&, const Scalar&) [with _Scalar = float; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1; Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Scalar = float][m[K’
+[6.872s]   389 |     EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const Scalar& x, const Scalar& y, const Scalar& z)
+[6.872s]       |                         [01;36m[K^~~~~~[m[K
+[6.872s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:389:25:[m[K [01;36m[Knote: [m[K  conversion of argument 2 would be ill-formed:
+[6.872s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:321:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(const std::initializer_list<std::initializer_list<typename Eigen::internal::traits<Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols> >::Scalar> >&) [with _Scalar = float; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1; typename Eigen::internal::traits<Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols> >::Scalar = float][m[K’
+[6.872s]   321 |     explicit EIGEN_STRONG_INLINE [01;36m[KMatrix[m[K(const std::initializer_list<std::initializer_list<Scalar>>& list) : Base(list) {}
+[6.872s]       |                                  [01;36m[K^~~~~~[m[K
+[6.873s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:321:34:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[6.873s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>&&) [with _Scalar = float; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1][m[K’
+[6.873s]   273 |     [01;36m[KMatrix[m[K(Matrix&& other) EIGEN_NOEXCEPT_IF(std::is_nothrow_move_constructible<Scalar>::value)
+[6.873s]       |     [01;36m[K^~~~~~[m[K
+[6.873s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:273:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[6.873s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix(Eigen::internal::constructor_without_unaligned_array_assert) [with _Scalar = float; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1][m[K’
+[6.873s]   267 |     explicit [01;36m[KMatrix[m[K(internal::constructor_without_unaligned_array_assert)
+[6.873s]       |              [01;36m[K^~~~~~[m[K
+[6.873s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:267:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[6.873s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:259:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::Matrix() [with _Scalar = float; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1][m[K’
+[6.873s]   259 |     [01;36m[KMatrix[m[K() : Base()
+[6.873s]       |     [01;36m[K^~~~~~[m[K
+[6.873s] [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:259:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[6.873s] gmake[2]: *** [CMakeFiles/draw_r.dir/build.make:76: CMakeFiles/draw_r.dir/src/main.cpp.o] Error 1
+[6.873s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/draw_r.dir/all] Error 2
+[6.873s] gmake: *** [Makefile:146: all] Error 2
+[6.875s] Invoked command in '/home/rudra/custom_flightmode/build/draw_flight_mode' returned '2': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudra/custom_flightmode/build/draw_flight_mode -- -j12 -l12

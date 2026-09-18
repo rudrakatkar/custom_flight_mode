@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target draw_r[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/draw_r.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable draw_r[0m
+[100%] Built target draw_r
+-- Install configuration: ""
+-- Installing: /home/rudra/custom_flightmode/install/draw_flight_mode/lib/draw_flight_mode/draw_r
+-- Set runtime path of "/home/rudra/custom_flightmode/install/draw_flight_mode/lib/draw_flight_mode/draw_r" to ""
+-- Installing: /home/rudra/custom_flightmode/install/draw_flight_mode/share/ament_index/resource_index/package_run_dependencies/draw_flight_mode
+-- Installing: /home/rudra/custom_flightmode/install/draw_flight_mode/share/ament_index/resource_index/parent_prefix_path/draw_flight_mode
+-- Installing: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/environment/ament_prefix_path.sh
+-- Installing: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/environment/ament_prefix_path.dsv
+-- Installing: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/environment/path.sh
+-- Installing: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/environment/path.dsv
+-- Installing: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/local_setup.bash
+-- Installing: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/local_setup.sh
+-- Installing: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/local_setup.zsh
+-- Installing: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/local_setup.dsv
+-- Installing: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/package.dsv
+-- Installing: /home/rudra/custom_flightmode/install/draw_flight_mode/share/ament_index/resource_index/packages/draw_flight_mode
+-- Installing: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/cmake/draw_flight_modeConfig.cmake
+-- Installing: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/cmake/draw_flight_modeConfig-version.cmake
+-- Installing: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/package.xml

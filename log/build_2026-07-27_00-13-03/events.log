@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000483] (-) JobUnselected: {'identifier': 'example_executor_with_multiple_modes_cpp'}
+[0.000706] (-) JobUnselected: {'identifier': 'example_global_navigation_cpp'}
+[0.000828] (-) JobUnselected: {'identifier': 'example_local_navigation_cpp'}
+[0.000878] (-) JobUnselected: {'identifier': 'example_mode_fw_attitude_cpp'}
+[0.000917] (-) JobUnselected: {'identifier': 'example_mode_goto_cpp'}
+[0.001029] (-) JobUnselected: {'identifier': 'example_mode_goto_global_cpp'}
+[0.001064] (-) JobUnselected: {'identifier': 'example_mode_goto_py'}
+[0.001101] (-) JobUnselected: {'identifier': 'example_mode_manual_cpp'}
+[0.001147] (-) JobUnselected: {'identifier': 'example_mode_mission_cpp'}
+[0.001238] (-) JobUnselected: {'identifier': 'example_mode_rtl_replacement_cpp'}
+[0.001272] (-) JobUnselected: {'identifier': 'example_mode_vtol_cpp'}
+[0.001307] (-) JobUnselected: {'identifier': 'example_mode_with_executor_cpp'}
+[0.001335] (-) JobUnselected: {'identifier': 'example_mode_with_rclpy_py'}
+[0.001353] (-) JobUnselected: {'identifier': 'example_rover_velocity_mode_cpp'}
+[0.001371] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.001410] (-) JobUnselected: {'identifier': 'px4_ros2_cpp'}
+[0.001474] (-) JobUnselected: {'identifier': 'px4_ros2_py'}
+[0.001499] (draw_flight_mode) JobQueued: {'identifier': 'draw_flight_mode', 'dependencies': OrderedDict([('px4_msgs', '/home/rudra/custom_flightmode/install/px4_msgs'), ('px4_ros2_cpp', '/home/rudra/custom_flightmode/install/px4_ros2_cpp')])}
+[0.001528] (draw_flight_mode) JobStarted: {'identifier': 'draw_flight_mode'}
+[0.011213] (draw_flight_mode) JobProgress: {'identifier': 'draw_flight_mode', 'progress': 'cmake'}
+[0.011807] (draw_flight_mode) Command: {'cmd': ['/usr/bin/cmake', '/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main', '-DCMAKE_INSTALL_PREFIX=/home/rudra/custom_flightmode/install/draw_flight_mode'], 'cwd': '/home/rudra/custom_flightmode/build/draw_flight_mode', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/rudra'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rudra'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rudra'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('OLDPWD', '/home/rudra/custom_flightmode'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/rudra/.nvm/versions/node/v24.16.0/bin'), ('NVM_INC', '/home/rudra/.nvm/versions/node/v24.16.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-386ead39-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/antigravity.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1912'), ('SYSTEMD_EXEC_PID', '2215'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '43482'), ('NVM_DIR', '/home/rudra/.nvm'), ('COLCON_PREFIX_PATH', '/home/rudra/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rudra'), ('JOURNAL_STREAM', '8:22828'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rudra'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/usr/share/antigravity/resources/app'), ('PATH', '/usr/lib/ccache:/home/rudra/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/rudra/.local/bin:/home/rudra/.nvm/versions/node/v24.16.0/bin:/opt/ros/humble/bin:/usr/lib/ccache:/home/rudra/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/rudra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/victus:@/tmp/.ICE-unix/2188,unix/victus:/tmp/.ICE-unix/2188'), ('INVOCATION_ID', '5d6edd1254934f7095d81f49b375e718'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', '4e80b990-21d9-4e85-bc33-b0725dfa4513'), ('PWD', '/home/rudra/custom_flightmode/build/draw_flight_mode'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/rudra/.config/Antigravity/CachedData/15487b3041e65228cae24980a3f796c905ef582c'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:/home/rudra/ros2_ws/install/talker_listener/lib/python3.10/site-packages:/home/rudra/ros2_ws/install/first_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VSCODE_PID', '43482'), ('CMAKE_PREFIX_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble')]), 'shell': False}
+[0.074458] (draw_flight_mode) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099792] (-) TimerEvent: {}
+[0.125616] (draw_flight_mode) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.133817] (draw_flight_mode) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199914] (-) TimerEvent: {}
+[0.201344] (draw_flight_mode) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.207746] (draw_flight_mode) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[0.208026] (draw_flight_mode) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.208201] (draw_flight_mode) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.210584] (draw_flight_mode) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.272188] (draw_flight_mode) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.277952] (draw_flight_mode) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[0.278194] (draw_flight_mode) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.278523] (draw_flight_mode) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.280447] (draw_flight_mode) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.288612] (draw_flight_mode) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.290310] (draw_flight_mode) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299993] (-) TimerEvent: {}
+[0.400234] (-) TimerEvent: {}
+[0.500488] (-) TimerEvent: {}
+[0.600737] (-) TimerEvent: {}
+[0.607806] (draw_flight_mode) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.687185] (draw_flight_mode) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700848] (-) TimerEvent: {}
+[0.723269] (draw_flight_mode) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.727433] (draw_flight_mode) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.734401] (draw_flight_mode) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.743982] (draw_flight_mode) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.756762] (draw_flight_mode) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.791848] (draw_flight_mode) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.794308] (draw_flight_mode) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800905] (-) TimerEvent: {}
+[0.875826] (draw_flight_mode) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.901010] (-) TimerEvent: {}
+[0.905957] (draw_flight_mode) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.952677] (draw_flight_mode) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.960842] (draw_flight_mode) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.001102] (-) TimerEvent: {}
+[1.017102] (draw_flight_mode) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.017340] (draw_flight_mode) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.073957] (draw_flight_mode) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.074838] (draw_flight_mode) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101228] (-) TimerEvent: {}
+[1.125140] (draw_flight_mode) StdoutLine: {'line': b'-- Found px4_ros2_cpp: 0.0.1 (/home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake)\n'}
+[1.143296] (draw_flight_mode) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.201333] (-) TimerEvent: {}
+[1.255162] (draw_flight_mode) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.256143] (draw_flight_mode) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.256301] (draw_flight_mode) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include\n'}
+[1.256374] (draw_flight_mode) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.257142] (draw_flight_mode) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.257255] (draw_flight_mode) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.257743] (draw_flight_mode) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.258652] (draw_flight_mode) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.258726] (draw_flight_mode) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.259068] (draw_flight_mode) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.260199] (draw_flight_mode) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.269146] (draw_flight_mode) StdoutLine: {'line': b'-- Generating done\n'}
+[1.272599] (draw_flight_mode) StdoutLine: {'line': b'-- Build files have been written to: /home/rudra/custom_flightmode/build/draw_flight_mode\n'}
+[1.282793] (draw_flight_mode) CommandEnded: {'returncode': 0}
+[1.283479] (draw_flight_mode) JobProgress: {'identifier': 'draw_flight_mode', 'progress': 'build'}
+[1.284351] (draw_flight_mode) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rudra/custom_flightmode/build/draw_flight_mode', '--', '-j12', '-l12'], 'cwd': '/home/rudra/custom_flightmode/build/draw_flight_mode', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/rudra'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rudra'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rudra'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('OLDPWD', '/home/rudra/custom_flightmode'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/rudra/.nvm/versions/node/v24.16.0/bin'), ('NVM_INC', '/home/rudra/.nvm/versions/node/v24.16.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-386ead39-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/antigravity.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1912'), ('SYSTEMD_EXEC_PID', '2215'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '43482'), ('NVM_DIR', '/home/rudra/.nvm'), ('COLCON_PREFIX_PATH', '/home/rudra/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rudra'), ('JOURNAL_STREAM', '8:22828'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rudra'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/usr/share/antigravity/resources/app'), ('PATH', '/usr/lib/ccache:/home/rudra/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/rudra/.local/bin:/home/rudra/.nvm/versions/node/v24.16.0/bin:/opt/ros/humble/bin:/usr/lib/ccache:/home/rudra/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/rudra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/victus:@/tmp/.ICE-unix/2188,unix/victus:/tmp/.ICE-unix/2188'), ('INVOCATION_ID', '5d6edd1254934f7095d81f49b375e718'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', '4e80b990-21d9-4e85-bc33-b0725dfa4513'), ('PWD', '/home/rudra/custom_flightmode/build/draw_flight_mode'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/rudra/.config/Antigravity/CachedData/15487b3041e65228cae24980a3f796c905ef582c'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:/home/rudra/ros2_ws/install/talker_listener/lib/python3.10/site-packages:/home/rudra/ros2_ws/install/first_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VSCODE_PID', '43482'), ('CMAKE_PREFIX_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble')]), 'shell': False}
+[1.301428] (-) TimerEvent: {}
+[1.333252] (draw_flight_mode) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/draw_r.dir/src/main.cpp.o\x1b[0m\n'}
+[1.401530] (-) TimerEvent: {}
+[1.501944] (-) TimerEvent: {}
+[1.602334] (-) TimerEvent: {}
+[1.702589] (-) TimerEvent: {}
+[1.802866] (-) TimerEvent: {}
+[1.903144] (-) TimerEvent: {}
+[2.003401] (-) TimerEvent: {}
+[2.103683] (-) TimerEvent: {}
+[2.203980] (-) TimerEvent: {}
+[2.304243] (-) TimerEvent: {}
+[2.404508] (-) TimerEvent: {}
+[2.504769] (-) TimerEvent: {}
+[2.605017] (-) TimerEvent: {}
+[2.705336] (-) TimerEvent: {}
+[2.805829] (-) TimerEvent: {}
+[2.906089] (-) TimerEvent: {}
+[3.006359] (-) TimerEvent: {}
+[3.106642] (-) TimerEvent: {}
+[3.206924] (-) TimerEvent: {}
+[3.307279] (-) TimerEvent: {}
+[3.407563] (-) TimerEvent: {}
+[3.507822] (-) TimerEvent: {}
+[3.608093] (-) TimerEvent: {}
+[3.708362] (-) TimerEvent: {}
+[3.808649] (-) TimerEvent: {}
+[3.908912] (-) TimerEvent: {}
+[4.009226] (-) TimerEvent: {}
+[4.109489] (-) TimerEvent: {}
+[4.209761] (-) TimerEvent: {}
+[4.310011] (-) TimerEvent: {}
+[4.410286] (-) TimerEvent: {}
+[4.510543] (-) TimerEvent: {}
+[4.610832] (-) TimerEvent: {}
+[4.711136] (-) TimerEvent: {}
+[4.811476] (-) TimerEvent: {}
+[4.911729] (-) TimerEvent: {}
+[5.011985] (-) TimerEvent: {}
+[5.112232] (-) TimerEvent: {}
+[5.212476] (-) TimerEvent: {}
+[5.312747] (-) TimerEvent: {}
+[5.413013] (-) TimerEvent: {}
+[5.513351] (-) TimerEvent: {}
+[5.613829] (-) TimerEvent: {}
+[5.714121] (-) TimerEvent: {}
+[5.814394] (-) TimerEvent: {}
+[5.914652] (-) TimerEvent: {}
+[6.014917] (-) TimerEvent: {}
+[6.115196] (-) TimerEvent: {}
+[6.215484] (-) TimerEvent: {}
+[6.316116] (-) TimerEvent: {}
+[6.416387] (-) TimerEvent: {}
+[6.516659] (-) TimerEvent: {}
+[6.616915] (-) TimerEvent: {}
+[6.717221] (-) TimerEvent: {}
+[6.817470] (-) TimerEvent: {}
+[6.917728] (-) TimerEvent: {}
+[6.981869] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp: In constructor \xe2\x80\x98Drone1Node::Drone1Node(const string&, bool, const rclcpp::NodeOptions&)\xe2\x80\x99:\n'}
+[6.982136] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:59:39: error: ignoring return value of \xe2\x80\x98rcutils_ret_t rcutils_logging_set_logger_level(const char*, int)\xe2\x80\x99 declared with attribute \xe2\x80\x98warn_unused_result\xe2\x80\x99 [-Werror=unused-result]\n'}
+[6.982237] (draw_flight_mode) StderrLine: {'line': b'   59 |       rcutils_logging_set_logger_level(get_logger().get_name(), RCUTILS_LOG_SEVERITY_DEBUG);\n'}
+[6.982327] (draw_flight_mode) StderrLine: {'line': b'      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[6.982446] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp: In constructor \xe2\x80\x98Drone2Node::Drone2Node(const string&, bool, const rclcpp::NodeOptions&)\xe2\x80\x99:\n'}
+[6.982541] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:85:39: error: ignoring return value of \xe2\x80\x98rcutils_ret_t rcutils_logging_set_logger_level(const char*, int)\xe2\x80\x99 declared with attribute \xe2\x80\x98warn_unused_result\xe2\x80\x99 [-Werror=unused-result]\n'}
+[6.982627] (draw_flight_mode) StderrLine: {'line': b'   85 |       rcutils_logging_set_logger_level(get_logger().get_name(), RCUTILS_LOG_SEVERITY_DEBUG);\n'}
+[6.982684] (draw_flight_mode) StderrLine: {'line': b'      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[6.982746] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp: In constructor \xe2\x80\x98Drone3Node::Drone3Node(const string&, bool, const rclcpp::NodeOptions&)\xe2\x80\x99:\n'}
+[6.982799] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:111:39: error: ignoring return value of \xe2\x80\x98rcutils_ret_t rcutils_logging_set_logger_level(const char*, int)\xe2\x80\x99 declared with attribute \xe2\x80\x98warn_unused_result\xe2\x80\x99 [-Werror=unused-result]\n'}
+[6.982851] (draw_flight_mode) StderrLine: {'line': b'  111 |       rcutils_logging_set_logger_level(get_logger().get_name(), RCUTILS_LOG_SEVERITY_DEBUG);\n'}
+[6.982901] (draw_flight_mode) StderrLine: {'line': b'      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[6.982950] (draw_flight_mode) StderrLine: {'line': b'cc1plus: all warnings being treated as errors\n'}
+[6.983633] (draw_flight_mode) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/draw_r.dir/build.make:76: CMakeFiles/draw_r.dir/src/main.cpp.o] Error 1\n'}
+[6.983811] (draw_flight_mode) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/draw_r.dir/all] Error 2\n'}
+[6.984013] (draw_flight_mode) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.986336] (draw_flight_mode) CommandEnded: {'returncode': 2}
+[6.993127] (draw_flight_mode) JobEnded: {'identifier': 'draw_flight_mode', 'rc': 2}
+[7.003655] (-) EventReactorShutdown: {}

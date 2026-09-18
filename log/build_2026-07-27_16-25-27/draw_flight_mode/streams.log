@@ -1,0 +1,12 @@
+[0.020s] Invoking command in '/home/rudra/custom_flightmode/build/draw_flight_mode': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudra/custom_flightmode/build/draw_flight_mode -- -j12 -l12
+[0.088s] Consolidate compiler generated dependencies of target draw_r
+[0.107s] [ 50%] Building CXX object CMakeFiles/draw_r.dir/src/main.cpp.o
+[0.879s] In file included from /home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:10:
+[0.879s] /home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode.hpp:8:10: fatal error: std_msgs/msg/empty.hpp: No such file or directory
+[0.880s]     8 | #include <std_msgs/msg/empty.hpp>
+[0.880s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~
+[0.880s] compilation terminated.
+[0.893s] gmake[2]: *** [CMakeFiles/draw_r.dir/build.make:76: CMakeFiles/draw_r.dir/src/main.cpp.o] Error 1
+[0.894s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/draw_r.dir/all] Error 2
+[0.894s] gmake: *** [Makefile:146: all] Error 2
+[0.901s] Invoked command in '/home/rudra/custom_flightmode/build/draw_flight_mode' returned '2': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudra/custom_flightmode/build/draw_flight_mode -- -j12 -l12

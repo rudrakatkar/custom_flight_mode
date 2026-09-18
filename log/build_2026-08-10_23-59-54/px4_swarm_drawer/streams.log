@@ -1,0 +1,51 @@
+[0.021s] Invoking command in '/home/rudra/custom_flightmode/build/px4_swarm_drawer': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rudra/custom_flightmode/src/px4_swarm_drawer -DCMAKE_INSTALL_PREFIX=/home/rudra/custom_flightmode/install/px4_swarm_drawer
+[0.118s] -- The C compiler identification is GNU 11.4.0
+[0.175s] -- The CXX compiler identification is GNU 11.4.0
+[0.186s] -- Detecting C compiler ABI info
+[0.244s] -- Detecting C compiler ABI info - done
+[0.249s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.249s] -- Detecting C compile features
+[0.250s] -- Detecting C compile features - done
+[0.253s] -- Detecting CXX compiler ABI info
+[0.320s] -- Detecting CXX compiler ABI info - done
+[0.326s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.326s] -- Detecting CXX compile features
+[0.326s] -- Detecting CXX compile features - done
+[0.332s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.686s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.790s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.839s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.844s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.854s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.868s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.887s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.937s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.941s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.065s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.111s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.159s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.169s] -- Looking for pthread.h
+[1.264s] -- Looking for pthread.h - found
+[1.265s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.356s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.357s] -- Found Threads: TRUE  
+[1.425s] CMake Error at CMakeLists.txt:10 (find_package):
+[1.425s]   By not providing "Findpx4_ros2.cmake" in CMAKE_MODULE_PATH this project has
+[1.425s]   asked CMake to find a package configuration file provided by "px4_ros2",
+[1.425s]   but CMake did not find one.
+[1.425s] 
+[1.425s]   Could not find a package configuration file provided by "px4_ros2" with any
+[1.425s]   of the following names:
+[1.425s] 
+[1.425s]     px4_ros2Config.cmake
+[1.425s]     px4_ros2-config.cmake
+[1.425s] 
+[1.425s]   Add the installation prefix of "px4_ros2" to CMAKE_PREFIX_PATH or set
+[1.425s]   "px4_ros2_DIR" to a directory containing one of the above files.  If
+[1.426s]   "px4_ros2" provides a separate development package or SDK, be sure it has
+[1.426s]   been installed.
+[1.426s] 
+[1.426s] 
+[1.426s] -- Configuring incomplete, errors occurred!
+[1.426s] See also "/home/rudra/custom_flightmode/build/px4_swarm_drawer/CMakeFiles/CMakeOutput.log".
+[1.438s] Invoked command in '/home/rudra/custom_flightmode/build/px4_swarm_drawer' returned '1': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rudra/custom_flightmode/src/px4_swarm_drawer -DCMAKE_INSTALL_PREFIX=/home/rudra/custom_flightmode/install/px4_swarm_drawer

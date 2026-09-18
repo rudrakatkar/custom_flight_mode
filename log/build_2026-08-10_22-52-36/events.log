@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.000338] (-) JobUnselected: {'identifier': 'example_executor_with_multiple_modes_cpp'}
+[0.000495] (-) JobUnselected: {'identifier': 'example_global_navigation_cpp'}
+[0.000529] (-) JobUnselected: {'identifier': 'example_local_navigation_cpp'}
+[0.000570] (-) JobUnselected: {'identifier': 'example_mode_fw_attitude_cpp'}
+[0.000624] (-) JobUnselected: {'identifier': 'example_mode_goto_cpp'}
+[0.000694] (-) JobUnselected: {'identifier': 'example_mode_goto_global_cpp'}
+[0.000723] (-) JobUnselected: {'identifier': 'example_mode_goto_py'}
+[0.000747] (-) JobUnselected: {'identifier': 'example_mode_manual_cpp'}
+[0.000767] (-) JobUnselected: {'identifier': 'example_mode_mission_cpp'}
+[0.000788] (-) JobUnselected: {'identifier': 'example_mode_rtl_replacement_cpp'}
+[0.000830] (-) JobUnselected: {'identifier': 'example_mode_vtol_cpp'}
+[0.000856] (-) JobUnselected: {'identifier': 'example_mode_with_executor_cpp'}
+[0.000881] (-) JobUnselected: {'identifier': 'example_mode_with_rclpy_py'}
+[0.000982] (-) JobUnselected: {'identifier': 'example_rover_velocity_mode_cpp'}
+[0.001019] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.001043] (-) JobUnselected: {'identifier': 'px4_ros2_cpp'}
+[0.001060] (-) JobUnselected: {'identifier': 'px4_ros2_py'}
+[0.001081] (draw_flight_mode) JobQueued: {'identifier': 'draw_flight_mode', 'dependencies': OrderedDict([('px4_msgs', '/home/rudra/custom_flightmode/install/px4_msgs'), ('px4_ros2_cpp', '/home/rudra/custom_flightmode/install/px4_ros2_cpp')])}
+[0.001105] (draw_flight_mode) JobStarted: {'identifier': 'draw_flight_mode'}
+[0.014797] (draw_flight_mode) JobProgress: {'identifier': 'draw_flight_mode', 'progress': 'cmake'}
+[0.015628] (draw_flight_mode) Command: {'cmd': ['/usr/bin/cmake', '/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main', '-DCMAKE_INSTALL_PREFIX=/home/rudra/custom_flightmode/install/draw_flight_mode'], 'cwd': '/home/rudra/custom_flightmode/build/draw_flight_mode', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/rudra/custom_flightmode'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rudra'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rudra'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('OLDPWD', '/home/rudra'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/rudra/.nvm/versions/node/v24.16.0/bin'), ('NVM_INC', '/home/rudra/.nvm/versions/node/v24.16.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-386ead39-1.10-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('SYSTEMD_EXEC_PID', '2630'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ANTIGRAVITY_AGENT', '1'), ('NVM_DIR', '/home/rudra/.nvm'), ('COLCON_PREFIX_PATH', '/home/rudra/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rudra'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rudra'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/usr/share/antigravity/resources/app'), ('PATH', '/home/rudra/.nvm/versions/node/v24.16.0/bin:/opt/ros/humble/bin:/usr/lib/ccache:/home/rudra/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/rudra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/victus:@/tmp/.ICE-unix/2603,unix/victus:/tmp/.ICE-unix/2603'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9e5e8198_95fc_457d_b6a0_dd0c8f0a091a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', '3183b18d-285a-4b51-b0b2-f82456eef89c'), ('PWD', '/home/rudra/custom_flightmode/build/draw_flight_mode'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/rudra/.config/Antigravity/CachedData/15487b3041e65228cae24980a3f796c905ef582c'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:/home/rudra/ros2_ws/install/talker_listener/lib/python3.10/site-packages:/home/rudra/ros2_ws/install/first_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '19372'), ('CMAKE_PREFIX_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble')]), 'shell': False}
+[0.035616] (draw_flight_mode) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.038843] (draw_flight_mode) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099726] (-) TimerEvent: {}
+[0.167601] (draw_flight_mode) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.197892] (draw_flight_mode) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199798] (-) TimerEvent: {}
+[0.269313] (draw_flight_mode) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.277010] (draw_flight_mode) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.290433] (draw_flight_mode) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.299996] (-) TimerEvent: {}
+[0.304607] (draw_flight_mode) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.325735] (draw_flight_mode) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.376828] (draw_flight_mode) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.379511] (draw_flight_mode) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400071] (-) TimerEvent: {}
+[0.500369] (-) TimerEvent: {}
+[0.514721] (draw_flight_mode) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.573842] (draw_flight_mode) StdoutLine: {'line': b'-- Found px4_ros2_cpp: 0.0.1 (/home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake)\n'}
+[0.590677] (draw_flight_mode) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.600442] (-) TimerEvent: {}
+[0.690661] (draw_flight_mode) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.691603] (draw_flight_mode) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.691766] (draw_flight_mode) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include\n'}
+[0.691856] (draw_flight_mode) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.692574] (draw_flight_mode) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.692654] (draw_flight_mode) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.693243] (draw_flight_mode) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.694259] (draw_flight_mode) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.694367] (draw_flight_mode) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.694680] (draw_flight_mode) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.696646] (draw_flight_mode) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.700498] (-) TimerEvent: {}
+[0.708494] (draw_flight_mode) StdoutLine: {'line': b'-- Generating done\n'}
+[0.711876] (draw_flight_mode) StdoutLine: {'line': b'-- Build files have been written to: /home/rudra/custom_flightmode/build/draw_flight_mode\n'}
+[0.722854] (draw_flight_mode) CommandEnded: {'returncode': 0}
+[0.724305] (draw_flight_mode) JobProgress: {'identifier': 'draw_flight_mode', 'progress': 'build'}
+[0.724850] (draw_flight_mode) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rudra/custom_flightmode/build/draw_flight_mode', '--', '-j12', '-l12'], 'cwd': '/home/rudra/custom_flightmode/build/draw_flight_mode', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/rudra/custom_flightmode'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rudra'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rudra'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('OLDPWD', '/home/rudra'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/rudra/.nvm/versions/node/v24.16.0/bin'), ('NVM_INC', '/home/rudra/.nvm/versions/node/v24.16.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-386ead39-1.10-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('SYSTEMD_EXEC_PID', '2630'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ANTIGRAVITY_AGENT', '1'), ('NVM_DIR', '/home/rudra/.nvm'), ('COLCON_PREFIX_PATH', '/home/rudra/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rudra'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rudra'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/usr/share/antigravity/resources/app'), ('PATH', '/home/rudra/.nvm/versions/node/v24.16.0/bin:/opt/ros/humble/bin:/usr/lib/ccache:/home/rudra/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/rudra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/victus:@/tmp/.ICE-unix/2603,unix/victus:/tmp/.ICE-unix/2603'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9e5e8198_95fc_457d_b6a0_dd0c8f0a091a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', '3183b18d-285a-4b51-b0b2-f82456eef89c'), ('PWD', '/home/rudra/custom_flightmode/build/draw_flight_mode'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/rudra/.config/Antigravity/CachedData/15487b3041e65228cae24980a3f796c905ef582c'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:/home/rudra/ros2_ws/install/talker_listener/lib/python3.10/site-packages:/home/rudra/ros2_ws/install/first_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '19372'), ('CMAKE_PREFIX_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble')]), 'shell': False}
+[0.768113] (draw_flight_mode) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target draw_r\x1b[0m\n'}
+[0.800618] (-) TimerEvent: {}
+[0.804245] (draw_flight_mode) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/draw_r.dir/src/main.cpp.o\x1b[0m\n'}
+[0.900709] (-) TimerEvent: {}
+[1.000974] (-) TimerEvent: {}
+[1.101248] (-) TimerEvent: {}
+[1.201530] (-) TimerEvent: {}
+[1.301839] (-) TimerEvent: {}
+[1.402169] (-) TimerEvent: {}
+[1.502457] (-) TimerEvent: {}
+[1.602708] (-) TimerEvent: {}
+[1.703011] (-) TimerEvent: {}
+[1.803359] (-) TimerEvent: {}
+[1.903662] (-) TimerEvent: {}
+[2.003955] (-) TimerEvent: {}
+[2.104190] (-) TimerEvent: {}
+[2.204442] (-) TimerEvent: {}
+[2.304707] (-) TimerEvent: {}
+[2.405017] (-) TimerEvent: {}
+[2.505376] (-) TimerEvent: {}
+[2.605674] (-) TimerEvent: {}
+[2.706021] (-) TimerEvent: {}
+[2.806295] (-) TimerEvent: {}
+[2.906606] (-) TimerEvent: {}
+[3.006890] (-) TimerEvent: {}
+[3.107164] (-) TimerEvent: {}
+[3.207443] (-) TimerEvent: {}
+[3.307727] (-) TimerEvent: {}
+[3.408088] (-) TimerEvent: {}
+[3.508372] (-) TimerEvent: {}
+[3.608722] (-) TimerEvent: {}
+[3.708996] (-) TimerEvent: {}
+[3.809268] (-) TimerEvent: {}
+[3.909550] (-) TimerEvent: {}
+[4.009812] (-) TimerEvent: {}
+[4.110074] (-) TimerEvent: {}
+[4.210463] (-) TimerEvent: {}
+[4.310861] (-) TimerEvent: {}
+[4.411303] (-) TimerEvent: {}
+[4.511671] (-) TimerEvent: {}
+[4.612480] (-) TimerEvent: {}
+[4.713011] (-) TimerEvent: {}
+[4.816808] (-) TimerEvent: {}
+[4.917150] (-) TimerEvent: {}
+[5.017446] (-) TimerEvent: {}
+[5.117752] (-) TimerEvent: {}
+[5.218037] (-) TimerEvent: {}
+[5.318378] (-) TimerEvent: {}
+[5.418755] (-) TimerEvent: {}
+[5.519072] (-) TimerEvent: {}
+[5.619442] (-) TimerEvent: {}
+[5.719791] (-) TimerEvent: {}
+[5.820074] (-) TimerEvent: {}
+[5.920353] (-) TimerEvent: {}
+[6.020660] (-) TimerEvent: {}
+[6.120999] (-) TimerEvent: {}
+[6.221383] (-) TimerEvent: {}
+[6.321724] (-) TimerEvent: {}
+[6.422031] (-) TimerEvent: {}
+[6.522316] (-) TimerEvent: {}
+[6.622658] (-) TimerEvent: {}
+[6.722928] (-) TimerEvent: {}
+[6.823191] (-) TimerEvent: {}
+[6.923442] (-) TimerEvent: {}
+[7.023708] (-) TimerEvent: {}
+[7.124064] (-) TimerEvent: {}
+[7.224428] (-) TimerEvent: {}
+[7.324836] (-) TimerEvent: {}
+[7.425136] (-) TimerEvent: {}
+[7.525512] (-) TimerEvent: {}
+[7.625800] (-) TimerEvent: {}
+[7.726067] (-) TimerEvent: {}
+[7.826327] (-) TimerEvent: {}
+[7.926596] (-) TimerEvent: {}
+[8.026932] (-) TimerEvent: {}
+[8.127317] (-) TimerEvent: {}
+[8.227700] (-) TimerEvent: {}
+[8.327965] (-) TimerEvent: {}
+[8.428258] (-) TimerEvent: {}
+[8.528534] (-) TimerEvent: {}
+[8.628783] (-) TimerEvent: {}
+[8.729056] (-) TimerEvent: {}
+[8.829337] (-) TimerEvent: {}
+[8.929616] (-) TimerEvent: {}
+[9.029910] (-) TimerEvent: {}
+[9.130234] (-) TimerEvent: {}
+[9.230519] (-) TimerEvent: {}
+[9.330792] (-) TimerEvent: {}
+[9.431061] (-) TimerEvent: {}
+[9.531329] (-) TimerEvent: {}
+[9.631593] (-) TimerEvent: {}
+[9.731862] (-) TimerEvent: {}
+[9.737600] (draw_flight_mode) StderrLine: {'line': b'In file included from /home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:24:\n'}
+[9.737974] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode.hpp: In member function \xe2\x80\x98virtual void DrawLeftEdgeMode::updateSetpoint(float)\xe2\x80\x99:\n'}
+[9.738117] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode.hpp:139:21: error: operands to \xe2\x80\x98?:\xe2\x80\x99 have different types \xe2\x80\x98const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::Matrix<float, 3, 1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Matrix<float, 3, 1> > >\xe2\x80\x99 and \xe2\x80\x98const ConstantReturnType\xe2\x80\x99 {aka \xe2\x80\x98const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, Eigen::Matrix<float, 3, 1> >\xe2\x80\x99}\n'}
+[9.738241] (draw_flight_mode) StderrLine: {'line': b'  138 |                 const Eigen::Vector3f v_nom = (dist > 0.1f)\n'}
+[9.738367] (draw_flight_mode) StderrLine: {'line': b'      |                                               ~~~~~~~~~~~~~\n'}
+[9.738495] (draw_flight_mode) StderrLine: {'line': b'  139 |                     ? to_tgt.normalized() * kR_speed_ms\n'}
+[9.738607] (draw_flight_mode) StderrLine: {'line': b'      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[9.738705] (draw_flight_mode) StderrLine: {'line': b'  140 |                     : Eigen::Vector3f::Zero();\n'}
+[9.738795] (draw_flight_mode) StderrLine: {'line': b'      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[9.738873] (draw_flight_mode) StderrLine: {'line': b'In file included from /home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:25:\n'}
+[9.738937] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode_curve.hpp: In member function \xe2\x80\x98virtual void DrawCurveMode::updateSetpoint(float)\xe2\x80\x99:\n'}
+[9.739000] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode_curve.hpp:157:21: error: operands to \xe2\x80\x98?:\xe2\x80\x99 have different types \xe2\x80\x98const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::Matrix<float, 3, 1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Matrix<float, 3, 1> > >\xe2\x80\x99 and \xe2\x80\x98const ConstantReturnType\xe2\x80\x99 {aka \xe2\x80\x98const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, Eigen::Matrix<float, 3, 1> >\xe2\x80\x99}\n'}
+[9.739067] (draw_flight_mode) StderrLine: {'line': b'  156 |                 const Eigen::Vector3f v_nom = (dist > 0.1f)\n'}
+[9.739154] (draw_flight_mode) StderrLine: {'line': b'      |                                               ~~~~~~~~~~~~~\n'}
+[9.739245] (draw_flight_mode) StderrLine: {'line': b'  157 |                     ? to_wp.normalized() * kR_speed_ms\n'}
+[9.739347] (draw_flight_mode) StderrLine: {'line': b'      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[9.739459] (draw_flight_mode) StderrLine: {'line': b'  158 |                     : Eigen::Vector3f::Zero();\n'}
+[9.739558] (draw_flight_mode) StderrLine: {'line': b'      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[9.739648] (draw_flight_mode) StderrLine: {'line': b'In file included from /home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:26:\n'}
+[9.739721] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode_diagonal.hpp: In member function \xe2\x80\x98virtual void DrawDiagonalMode::updateSetpoint(float)\xe2\x80\x99:\n'}
+[9.739807] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode_diagonal.hpp:125:21: error: operands to \xe2\x80\x98?:\xe2\x80\x99 have different types \xe2\x80\x98const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::Matrix<float, 3, 1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Matrix<float, 3, 1> > >\xe2\x80\x99 and \xe2\x80\x98const ConstantReturnType\xe2\x80\x99 {aka \xe2\x80\x98const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, Eigen::Matrix<float, 3, 1> >\xe2\x80\x99}\n'}
+[9.739905] (draw_flight_mode) StderrLine: {'line': b'  124 |                 const Eigen::Vector3f v_nom = (dist > 0.1f)\n'}
+[9.739981] (draw_flight_mode) StderrLine: {'line': b'      |                                               ~~~~~~~~~~~~~\n'}
+[9.740046] (draw_flight_mode) StderrLine: {'line': b'  125 |                     ? to_tgt.normalized() * kR_speed_ms\n'}
+[9.740116] (draw_flight_mode) StderrLine: {'line': b'      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[9.740180] (draw_flight_mode) StderrLine: {'line': b'  126 |                     : Eigen::Vector3f::Zero();\n'}
+[9.740242] (draw_flight_mode) StderrLine: {'line': b'      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[9.740306] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp: In constructor \xe2\x80\x98Drone1Node::Drone1Node(const string&, bool, const rclcpp::NodeOptions&, const string&, const string&)\xe2\x80\x99:\n'}
+[9.740370] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:47:45: error: ignoring return value of \xe2\x80\x98rcutils_ret_t rcutils_logging_set_logger_level(const char*, int)\xe2\x80\x99 declared with attribute \xe2\x80\x98warn_unused_result\xe2\x80\x99 [-Werror=unused-result]\n'}
+[9.740450] (draw_flight_mode) StderrLine: {'line': b'   47 |             rcutils_logging_set_logger_level(\n'}
+[9.740515] (draw_flight_mode) StderrLine: {'line': b'      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n'}
+[9.740577] (draw_flight_mode) StderrLine: {'line': b'   48 |                 get_logger().get_name(), RCUTILS_LOG_SEVERITY_DEBUG);\n'}
+[9.740649] (draw_flight_mode) StderrLine: {'line': b'      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[9.740715] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp: In constructor \xe2\x80\x98Drone2Node::Drone2Node(const string&, bool, const rclcpp::NodeOptions&, const string&, const string&)\xe2\x80\x99:\n'}
+[9.740780] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:75:45: error: ignoring return value of \xe2\x80\x98rcutils_ret_t rcutils_logging_set_logger_level(const char*, int)\xe2\x80\x99 declared with attribute \xe2\x80\x98warn_unused_result\xe2\x80\x99 [-Werror=unused-result]\n'}
+[9.740846] (draw_flight_mode) StderrLine: {'line': b'   75 |             rcutils_logging_set_logger_level(\n'}
+[9.740911] (draw_flight_mode) StderrLine: {'line': b'      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n'}
+[9.740977] (draw_flight_mode) StderrLine: {'line': b'   76 |                 get_logger().get_name(), RCUTILS_LOG_SEVERITY_DEBUG);\n'}
+[9.741058] (draw_flight_mode) StderrLine: {'line': b'      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[9.741151] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp: In constructor \xe2\x80\x98Drone3Node::Drone3Node(const string&, bool, const rclcpp::NodeOptions&, const string&, const string&)\xe2\x80\x99:\n'}
+[9.741245] (draw_flight_mode) StderrLine: {'line': b'/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:103:45: error: ignoring return value of \xe2\x80\x98rcutils_ret_t rcutils_logging_set_logger_level(const char*, int)\xe2\x80\x99 declared with attribute \xe2\x80\x98warn_unused_result\xe2\x80\x99 [-Werror=unused-result]\n'}
+[9.741342] (draw_flight_mode) StderrLine: {'line': b'  103 |             rcutils_logging_set_logger_level(\n'}
+[9.741448] (draw_flight_mode) StderrLine: {'line': b'      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n'}
+[9.741544] (draw_flight_mode) StderrLine: {'line': b'  104 |                 get_logger().get_name(), RCUTILS_LOG_SEVERITY_DEBUG);\n'}
+[9.741633] (draw_flight_mode) StderrLine: {'line': b'      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[9.741721] (draw_flight_mode) StderrLine: {'line': b'cc1plus: all warnings being treated as errors\n'}
+[9.742054] (draw_flight_mode) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/draw_r.dir/build.make:76: CMakeFiles/draw_r.dir/src/main.cpp.o] Error 1\n'}
+[9.742150] (draw_flight_mode) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/draw_r.dir/all] Error 2\n'}
+[9.742219] (draw_flight_mode) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.744147] (draw_flight_mode) CommandEnded: {'returncode': 2}
+[9.758106] (draw_flight_mode) JobEnded: {'identifier': 'draw_flight_mode', 'rc': 2}
+[9.768660] (-) EventReactorShutdown: {}

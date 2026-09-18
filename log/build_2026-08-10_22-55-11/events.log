@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.000148] (-) JobUnselected: {'identifier': 'example_executor_with_multiple_modes_cpp'}
+[0.000294] (-) JobUnselected: {'identifier': 'example_global_navigation_cpp'}
+[0.000321] (-) JobUnselected: {'identifier': 'example_local_navigation_cpp'}
+[0.000337] (-) JobUnselected: {'identifier': 'example_mode_fw_attitude_cpp'}
+[0.000547] (-) JobUnselected: {'identifier': 'example_mode_goto_cpp'}
+[0.000650] (-) JobUnselected: {'identifier': 'example_mode_goto_global_cpp'}
+[0.000783] (-) JobUnselected: {'identifier': 'example_mode_goto_py'}
+[0.000819] (-) JobUnselected: {'identifier': 'example_mode_manual_cpp'}
+[0.000848] (-) JobUnselected: {'identifier': 'example_mode_mission_cpp'}
+[0.000874] (-) JobUnselected: {'identifier': 'example_mode_rtl_replacement_cpp'}
+[0.000926] (-) JobUnselected: {'identifier': 'example_mode_vtol_cpp'}
+[0.000951] (-) JobUnselected: {'identifier': 'example_mode_with_executor_cpp'}
+[0.000985] (-) JobUnselected: {'identifier': 'example_mode_with_rclpy_py'}
+[0.001022] (-) JobUnselected: {'identifier': 'example_rover_velocity_mode_cpp'}
+[0.001086] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.001102] (-) JobUnselected: {'identifier': 'px4_ros2_cpp'}
+[0.001117] (-) JobUnselected: {'identifier': 'px4_ros2_py'}
+[0.001134] (draw_flight_mode) JobQueued: {'identifier': 'draw_flight_mode', 'dependencies': OrderedDict([('px4_msgs', '/home/rudra/custom_flightmode/install/px4_msgs'), ('px4_ros2_cpp', '/home/rudra/custom_flightmode/install/px4_ros2_cpp')])}
+[0.001163] (draw_flight_mode) JobStarted: {'identifier': 'draw_flight_mode'}
+[0.011589] (draw_flight_mode) JobProgress: {'identifier': 'draw_flight_mode', 'progress': 'cmake'}
+[0.012081] (draw_flight_mode) JobProgress: {'identifier': 'draw_flight_mode', 'progress': 'build'}
+[0.012612] (draw_flight_mode) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rudra/custom_flightmode/build/draw_flight_mode', '--', '-j12', '-l12'], 'cwd': '/home/rudra/custom_flightmode/build/draw_flight_mode', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/rudra/custom_flightmode'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rudra'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rudra'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('OLDPWD', '/home/rudra'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/rudra/.nvm/versions/node/v24.16.0/bin'), ('NVM_INC', '/home/rudra/.nvm/versions/node/v24.16.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-386ead39-1.10-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('SYSTEMD_EXEC_PID', '2630'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ANTIGRAVITY_AGENT', '1'), ('NVM_DIR', '/home/rudra/.nvm'), ('COLCON_PREFIX_PATH', '/home/rudra/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rudra'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rudra'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/usr/share/antigravity/resources/app'), ('PATH', '/home/rudra/.nvm/versions/node/v24.16.0/bin:/opt/ros/humble/bin:/usr/lib/ccache:/home/rudra/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/rudra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/victus:@/tmp/.ICE-unix/2603,unix/victus:/tmp/.ICE-unix/2603'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9e5e8198_95fc_457d_b6a0_dd0c8f0a091a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', '3183b18d-285a-4b51-b0b2-f82456eef89c'), ('PWD', '/home/rudra/custom_flightmode/build/draw_flight_mode'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/rudra/.config/Antigravity/CachedData/15487b3041e65228cae24980a3f796c905ef582c'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:/home/rudra/ros2_ws/install/talker_listener/lib/python3.10/site-packages:/home/rudra/ros2_ws/install/first_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '19372'), ('CMAKE_PREFIX_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble')]), 'shell': False}
+[0.068643] (draw_flight_mode) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target draw_r\n'}
+[0.086418] (draw_flight_mode) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/draw_r.dir/src/main.cpp.o\n'}
+[0.099702] (-) TimerEvent: {}
+[0.199878] (-) TimerEvent: {}
+[0.300065] (-) TimerEvent: {}
+[0.400240] (-) TimerEvent: {}
+[0.500423] (-) TimerEvent: {}
+[0.600649] (-) TimerEvent: {}
+[0.700869] (-) TimerEvent: {}
+[0.801073] (-) TimerEvent: {}
+[0.901252] (-) TimerEvent: {}
+[1.001447] (-) TimerEvent: {}
+[1.101617] (-) TimerEvent: {}
+[1.201864] (-) TimerEvent: {}
+[1.302106] (-) TimerEvent: {}
+[1.402274] (-) TimerEvent: {}
+[1.502479] (-) TimerEvent: {}
+[1.602663] (-) TimerEvent: {}
+[1.702843] (-) TimerEvent: {}
+[1.803017] (-) TimerEvent: {}
+[1.903268] (-) TimerEvent: {}
+[2.003475] (-) TimerEvent: {}
+[2.103665] (-) TimerEvent: {}
+[2.203906] (-) TimerEvent: {}
+[2.304087] (-) TimerEvent: {}
+[2.404245] (-) TimerEvent: {}
+[2.504418] (-) TimerEvent: {}
+[2.604626] (-) TimerEvent: {}
+[2.704814] (-) TimerEvent: {}
+[2.804999] (-) TimerEvent: {}
+[2.905252] (-) TimerEvent: {}
+[3.005443] (-) TimerEvent: {}
+[3.105609] (-) TimerEvent: {}
+[3.205764] (-) TimerEvent: {}
+[3.305982] (-) TimerEvent: {}
+[3.406227] (-) TimerEvent: {}
+[3.506489] (-) TimerEvent: {}
+[3.606736] (-) TimerEvent: {}
+[3.706912] (-) TimerEvent: {}
+[3.807091] (-) TimerEvent: {}
+[3.907257] (-) TimerEvent: {}
+[4.007471] (-) TimerEvent: {}
+[4.107660] (-) TimerEvent: {}
+[4.207917] (-) TimerEvent: {}
+[4.308115] (-) TimerEvent: {}
+[4.408254] (-) TimerEvent: {}
+[4.508438] (-) TimerEvent: {}
+[4.608617] (-) TimerEvent: {}
+[4.708878] (-) TimerEvent: {}
+[4.809143] (-) TimerEvent: {}
+[4.909390] (-) TimerEvent: {}
+[5.009609] (-) TimerEvent: {}
+[5.109823] (-) TimerEvent: {}
+[5.210024] (-) TimerEvent: {}
+[5.310216] (-) TimerEvent: {}
+[5.410416] (-) TimerEvent: {}
+[5.510630] (-) TimerEvent: {}
+[5.610825] (-) TimerEvent: {}
+[5.711079] (-) TimerEvent: {}
+[5.811268] (-) TimerEvent: {}
+[5.911457] (-) TimerEvent: {}
+[6.011641] (-) TimerEvent: {}
+[6.111821] (-) TimerEvent: {}
+[6.211997] (-) TimerEvent: {}
+[6.312190] (-) TimerEvent: {}
+[6.412378] (-) TimerEvent: {}
+[6.512570] (-) TimerEvent: {}
+[6.612767] (-) TimerEvent: {}
+[6.712946] (-) TimerEvent: {}
+[6.813125] (-) TimerEvent: {}
+[6.913310] (-) TimerEvent: {}
+[7.013537] (-) TimerEvent: {}
+[7.113720] (-) TimerEvent: {}
+[7.213921] (-) TimerEvent: {}
+[7.314147] (-) TimerEvent: {}
+[7.414333] (-) TimerEvent: {}
+[7.514510] (-) TimerEvent: {}
+[7.614685] (-) TimerEvent: {}
+[7.714901] (-) TimerEvent: {}
+[7.815084] (-) TimerEvent: {}
+[7.915252] (-) TimerEvent: {}
+[8.015454] (-) TimerEvent: {}
+[8.115639] (-) TimerEvent: {}
+[8.215824] (-) TimerEvent: {}
+[8.316012] (-) TimerEvent: {}
+[8.416221] (-) TimerEvent: {}
+[8.516482] (-) TimerEvent: {}
+[8.616687] (-) TimerEvent: {}
+[8.716895] (-) TimerEvent: {}
+[8.817081] (-) TimerEvent: {}
+[8.917265] (-) TimerEvent: {}
+[9.017460] (-) TimerEvent: {}
+[9.117676] (-) TimerEvent: {}
+[9.217873] (-) TimerEvent: {}
+[9.318079] (-) TimerEvent: {}
+[9.418243] (-) TimerEvent: {}
+[9.518411] (-) TimerEvent: {}
+[9.618582] (-) TimerEvent: {}
+[9.718756] (-) TimerEvent: {}
+[9.818953] (-) TimerEvent: {}
+[9.919168] (-) TimerEvent: {}
+[10.019352] (-) TimerEvent: {}
+[10.119535] (-) TimerEvent: {}
+[10.219700] (-) TimerEvent: {}
+[10.319876] (-) TimerEvent: {}
+[10.420052] (-) TimerEvent: {}
+[10.520288] (-) TimerEvent: {}
+[10.620525] (-) TimerEvent: {}
+[10.720717] (-) TimerEvent: {}
+[10.820933] (-) TimerEvent: {}
+[10.921101] (-) TimerEvent: {}
+[11.021248] (-) TimerEvent: {}
+[11.121412] (-) TimerEvent: {}
+[11.221591] (-) TimerEvent: {}
+[11.321837] (-) TimerEvent: {}
+[11.422015] (-) TimerEvent: {}
+[11.522213] (-) TimerEvent: {}
+[11.622385] (-) TimerEvent: {}
+[11.722556] (-) TimerEvent: {}
+[11.822722] (-) TimerEvent: {}
+[11.922921] (-) TimerEvent: {}
+[12.023119] (-) TimerEvent: {}
+[12.123251] (-) TimerEvent: {}
+[12.223419] (-) TimerEvent: {}
+[12.323590] (-) TimerEvent: {}
+[12.423797] (-) TimerEvent: {}
+[12.523970] (-) TimerEvent: {}
+[12.624204] (-) TimerEvent: {}
+[12.724398] (-) TimerEvent: {}
+[12.824581] (-) TimerEvent: {}
+[12.924776] (-) TimerEvent: {}
+[13.024941] (-) TimerEvent: {}
+[13.125112] (-) TimerEvent: {}
+[13.225251] (-) TimerEvent: {}
+[13.325493] (-) TimerEvent: {}
+[13.425687] (-) TimerEvent: {}
+[13.525873] (-) TimerEvent: {}
+[13.626055] (-) TimerEvent: {}
+[13.726238] (-) TimerEvent: {}
+[13.826453] (-) TimerEvent: {}
+[13.926632] (-) TimerEvent: {}
+[14.026863] (-) TimerEvent: {}
+[14.127089] (-) TimerEvent: {}
+[14.227250] (-) TimerEvent: {}
+[14.327422] (-) TimerEvent: {}
+[14.427595] (-) TimerEvent: {}
+[14.527767] (-) TimerEvent: {}
+[14.627935] (-) TimerEvent: {}
+[14.728158] (-) TimerEvent: {}
+[14.828380] (-) TimerEvent: {}
+[14.928562] (-) TimerEvent: {}
+[15.028739] (-) TimerEvent: {}
+[15.128905] (-) TimerEvent: {}
+[15.229083] (-) TimerEvent: {}
+[15.329247] (-) TimerEvent: {}
+[15.429490] (-) TimerEvent: {}
+[15.529751] (-) TimerEvent: {}
+[15.629957] (-) TimerEvent: {}
+[15.730135] (-) TimerEvent: {}
+[15.830316] (-) TimerEvent: {}
+[15.930536] (-) TimerEvent: {}
+[16.010041] (draw_flight_mode) StdoutLine: {'line': b'[100%] Linking CXX executable draw_r\n'}
+[16.030619] (-) TimerEvent: {}
+[16.130833] (-) TimerEvent: {}
+[16.231097] (-) TimerEvent: {}
+[16.331272] (-) TimerEvent: {}
+[16.431506] (-) TimerEvent: {}
+[16.531716] (-) TimerEvent: {}
+[16.631950] (-) TimerEvent: {}
+[16.732166] (-) TimerEvent: {}
+[16.832452] (-) TimerEvent: {}
+[16.932756] (-) TimerEvent: {}
+[17.032992] (-) TimerEvent: {}
+[17.133228] (-) TimerEvent: {}
+[17.233454] (-) TimerEvent: {}
+[17.333768] (-) TimerEvent: {}
+[17.434032] (-) TimerEvent: {}
+[17.534294] (-) TimerEvent: {}
+[17.634560] (-) TimerEvent: {}
+[17.734773] (-) TimerEvent: {}
+[17.834970] (-) TimerEvent: {}
+[17.935155] (-) TimerEvent: {}
+[18.035342] (-) TimerEvent: {}
+[18.135514] (-) TimerEvent: {}
+[18.193020] (draw_flight_mode) StdoutLine: {'line': b'[100%] Built target draw_r\n'}
+[18.204969] (draw_flight_mode) CommandEnded: {'returncode': 0}
+[18.205559] (draw_flight_mode) JobProgress: {'identifier': 'draw_flight_mode', 'progress': 'install'}
+[18.214778] (draw_flight_mode) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rudra/custom_flightmode/build/draw_flight_mode'], 'cwd': '/home/rudra/custom_flightmode/build/draw_flight_mode', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/rudra/custom_flightmode'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rudra'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rudra'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('OLDPWD', '/home/rudra'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/rudra/.nvm/versions/node/v24.16.0/bin'), ('NVM_INC', '/home/rudra/.nvm/versions/node/v24.16.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-386ead39-1.10-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('SYSTEMD_EXEC_PID', '2630'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ANTIGRAVITY_AGENT', '1'), ('NVM_DIR', '/home/rudra/.nvm'), ('COLCON_PREFIX_PATH', '/home/rudra/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rudra'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rudra'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/usr/share/antigravity/resources/app'), ('PATH', '/home/rudra/.nvm/versions/node/v24.16.0/bin:/opt/ros/humble/bin:/usr/lib/ccache:/home/rudra/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/rudra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/victus:@/tmp/.ICE-unix/2603,unix/victus:/tmp/.ICE-unix/2603'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9e5e8198_95fc_457d_b6a0_dd0c8f0a091a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', '3183b18d-285a-4b51-b0b2-f82456eef89c'), ('PWD', '/home/rudra/custom_flightmode/build/draw_flight_mode'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/rudra/.config/Antigravity/CachedData/15487b3041e65228cae24980a3f796c905ef582c'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:/home/rudra/ros2_ws/install/talker_listener/lib/python3.10/site-packages:/home/rudra/ros2_ws/install/first_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '19372'), ('CMAKE_PREFIX_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble')]), 'shell': False}
+[18.222699] (draw_flight_mode) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.223041] (draw_flight_mode) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.223263] (draw_flight_mode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rudra/custom_flightmode/install/draw_flight_mode/lib/draw_flight_mode/draw_r\n'}
+[18.223413] (draw_flight_mode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rudra/custom_flightmode/install/draw_flight_mode/share/ament_index/resource_index/package_run_dependencies/draw_flight_mode\n'}
+[18.223543] (draw_flight_mode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rudra/custom_flightmode/install/draw_flight_mode/share/ament_index/resource_index/parent_prefix_path/draw_flight_mode\n'}
+[18.223667] (draw_flight_mode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/environment/ament_prefix_path.sh\n'}
+[18.223780] (draw_flight_mode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/environment/ament_prefix_path.dsv\n'}
+[18.223899] (draw_flight_mode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/environment/path.sh\n'}
+[18.224011] (draw_flight_mode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/environment/path.dsv\n'}
+[18.224123] (draw_flight_mode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/local_setup.bash\n'}
+[18.224236] (draw_flight_mode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/local_setup.sh\n'}
+[18.224345] (draw_flight_mode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/local_setup.zsh\n'}
+[18.224450] (draw_flight_mode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/local_setup.dsv\n'}
+[18.224560] (draw_flight_mode) StdoutLine: {'line': b'-- Symlinking: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/package.dsv\n'}
+[18.235002] (draw_flight_mode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rudra/custom_flightmode/install/draw_flight_mode/share/ament_index/resource_index/packages/draw_flight_mode\n'}
+[18.235442] (draw_flight_mode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/cmake/draw_flight_modeConfig.cmake\n'}
+[18.235576] (-) TimerEvent: {}
+[18.235607] (draw_flight_mode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/cmake/draw_flight_modeConfig-version.cmake\n'}
+[18.235709] (draw_flight_mode) StdoutLine: {'line': b'-- Up-to-date symlink: /home/rudra/custom_flightmode/install/draw_flight_mode/share/draw_flight_mode/package.xml\n'}
+[18.237210] (draw_flight_mode) CommandEnded: {'returncode': 0}
+[18.251370] (draw_flight_mode) JobEnded: {'identifier': 'draw_flight_mode', 'rc': 0}
+[18.251793] (-) EventReactorShutdown: {}

@@ -1,0 +1,49 @@
+In file included from /home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:24:
+/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode.hpp: In member function ‘virtual void DrawLeftEdgeMode::updateSetpoint(float)’:
+/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode.hpp:139:21: error: operands to ‘?:’ have different types ‘const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::Matrix<float, 3, 1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Matrix<float, 3, 1> > >’ and ‘const ConstantReturnType’ {aka ‘const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, Eigen::Matrix<float, 3, 1> >’}
+  138 |                 const Eigen::Vector3f v_nom = (dist > 0.1f)
+      |                                               ~~~~~~~~~~~~~
+  139 |                     ? to_tgt.normalized() * kR_speed_ms
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  140 |                     : Eigen::Vector3f::Zero();
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:25:
+/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode_curve.hpp: In member function ‘virtual void DrawCurveMode::updateSetpoint(float)’:
+/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode_curve.hpp:157:21: error: operands to ‘?:’ have different types ‘const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::Matrix<float, 3, 1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Matrix<float, 3, 1> > >’ and ‘const ConstantReturnType’ {aka ‘const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, Eigen::Matrix<float, 3, 1> >’}
+  156 |                 const Eigen::Vector3f v_nom = (dist > 0.1f)
+      |                                               ~~~~~~~~~~~~~
+  157 |                     ? to_wp.normalized() * kR_speed_ms
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  158 |                     : Eigen::Vector3f::Zero();
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:26:
+/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode_diagonal.hpp: In member function ‘virtual void DrawDiagonalMode::updateSetpoint(float)’:
+/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode_diagonal.hpp:125:21: error: operands to ‘?:’ have different types ‘const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::Matrix<float, 3, 1>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Matrix<float, 3, 1> > >’ and ‘const ConstantReturnType’ {aka ‘const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, Eigen::Matrix<float, 3, 1> >’}
+  124 |                 const Eigen::Vector3f v_nom = (dist > 0.1f)
+      |                                               ~~~~~~~~~~~~~
+  125 |                     ? to_tgt.normalized() * kR_speed_ms
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  126 |                     : Eigen::Vector3f::Zero();
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp: In constructor ‘Drone1Node::Drone1Node(const string&, bool, const rclcpp::NodeOptions&, const string&, const string&)’:
+/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:47:45: error: ignoring return value of ‘rcutils_ret_t rcutils_logging_set_logger_level(const char*, int)’ declared with attribute ‘warn_unused_result’ [-Werror=unused-result]
+   47 |             rcutils_logging_set_logger_level(
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+   48 |                 get_logger().get_name(), RCUTILS_LOG_SEVERITY_DEBUG);
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp: In constructor ‘Drone2Node::Drone2Node(const string&, bool, const rclcpp::NodeOptions&, const string&, const string&)’:
+/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:75:45: error: ignoring return value of ‘rcutils_ret_t rcutils_logging_set_logger_level(const char*, int)’ declared with attribute ‘warn_unused_result’ [-Werror=unused-result]
+   75 |             rcutils_logging_set_logger_level(
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+   76 |                 get_logger().get_name(), RCUTILS_LOG_SEVERITY_DEBUG);
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp: In constructor ‘Drone3Node::Drone3Node(const string&, bool, const rclcpp::NodeOptions&, const string&, const string&)’:
+/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:103:45: error: ignoring return value of ‘rcutils_ret_t rcutils_logging_set_logger_level(const char*, int)’ declared with attribute ‘warn_unused_result’ [-Werror=unused-result]
+  103 |             rcutils_logging_set_logger_level(
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+  104 |                 get_logger().get_name(), RCUTILS_LOG_SEVERITY_DEBUG);
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/draw_r.dir/build.make:76: CMakeFiles/draw_r.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/draw_r.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

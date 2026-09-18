@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000436] (-) JobUnselected: {'identifier': 'draw_flight_mode'}
+[0.000469] (-) JobUnselected: {'identifier': 'example_executor_with_multiple_modes_cpp'}
+[0.000491] (-) JobUnselected: {'identifier': 'example_global_navigation_cpp'}
+[0.000508] (-) JobUnselected: {'identifier': 'example_local_navigation_cpp'}
+[0.000524] (-) JobUnselected: {'identifier': 'example_mode_fw_attitude_cpp'}
+[0.000541] (-) JobUnselected: {'identifier': 'example_mode_goto_cpp'}
+[0.000557] (-) JobUnselected: {'identifier': 'example_mode_goto_global_cpp'}
+[0.000573] (-) JobUnselected: {'identifier': 'example_mode_goto_py'}
+[0.000589] (-) JobUnselected: {'identifier': 'example_mode_manual_cpp'}
+[0.000605] (-) JobUnselected: {'identifier': 'example_mode_mission_cpp'}
+[0.000620] (-) JobUnselected: {'identifier': 'example_mode_rtl_replacement_cpp'}
+[0.000636] (-) JobUnselected: {'identifier': 'example_mode_vtol_cpp'}
+[0.000651] (-) JobUnselected: {'identifier': 'example_mode_with_executor_cpp'}
+[0.000666] (-) JobUnselected: {'identifier': 'example_mode_with_rclpy_py'}
+[0.000693] (-) JobUnselected: {'identifier': 'example_rover_velocity_mode_cpp'}
+[0.000714] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000730] (-) JobUnselected: {'identifier': 'px4_ros2_cpp'}
+[0.000747] (-) JobUnselected: {'identifier': 'px4_ros2_py'}
+[0.000765] (px4_swarm_drawer) JobQueued: {'identifier': 'px4_swarm_drawer', 'dependencies': OrderedDict([('px4_msgs', '/home/rudra/custom_flightmode/install/px4_msgs')])}
+[0.000789] (px4_swarm_drawer) JobStarted: {'identifier': 'px4_swarm_drawer'}
+[0.018672] (px4_swarm_drawer) JobProgress: {'identifier': 'px4_swarm_drawer', 'progress': 'cmake'}
+[0.018834] (px4_swarm_drawer) Command: {'cmd': ['/usr/bin/cmake', '/home/rudra/custom_flightmode/src/px4_swarm_drawer', '-DCMAKE_INSTALL_PREFIX=/home/rudra/custom_flightmode/install/px4_swarm_drawer'], 'cwd': '/home/rudra/custom_flightmode/build/px4_swarm_drawer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/rudra/custom_flightmode'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rudra'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rudra/custom_flightmode/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rudra'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('OLDPWD', '/home/rudra'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/rudra/.nvm/versions/node/v24.16.0/bin'), ('NVM_INC', '/home/rudra/.nvm/versions/node/v24.16.0/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-386ead39-1.10-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('SYSTEMD_EXEC_PID', '2630'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ANTIGRAVITY_AGENT', '1'), ('NVM_DIR', '/home/rudra/.nvm'), ('COLCON_PREFIX_PATH', '/home/rudra/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rudra'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rudra'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('ANTIGRAVITY_EDITOR_APP_ROOT', '/usr/share/antigravity/resources/app'), ('PATH', '/home/rudra/.nvm/versions/node/v24.16.0/bin:/opt/ros/humble/bin:/usr/lib/ccache:/home/rudra/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/rudra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/victus:@/tmp/.ICE-unix/2603,unix/victus:/tmp/.ICE-unix/2603'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9e5e8198_95fc_457d_b6a0_dd0c8f0a091a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('ANTIGRAVITY_TRAJECTORY_ID', '3183b18d-285a-4b51-b0b2-f82456eef89c'), ('PWD', '/home/rudra/custom_flightmode/build/px4_swarm_drawer'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/rudra/.config/Antigravity/CachedData/15487b3041e65228cae24980a3f796c905ef582c'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:/home/rudra/ros2_ws/install/talker_listener/lib/python3.10/site-packages:/home/rudra/ros2_ws/install/first_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('VSCODE_PID', '19372'), ('CMAKE_PREFIX_PATH', '/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099733] (-) TimerEvent: {}
+[0.118693] (px4_swarm_drawer) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.175712] (px4_swarm_drawer) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.186957] (px4_swarm_drawer) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199822] (-) TimerEvent: {}
+[0.244452] (px4_swarm_drawer) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.249807] (px4_swarm_drawer) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[0.250107] (px4_swarm_drawer) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.250637] (px4_swarm_drawer) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.253427] (px4_swarm_drawer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299918] (-) TimerEvent: {}
+[0.320518] (px4_swarm_drawer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.326276] (px4_swarm_drawer) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[0.326475] (px4_swarm_drawer) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.326823] (px4_swarm_drawer) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.332462] (px4_swarm_drawer) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400005] (-) TimerEvent: {}
+[0.500240] (-) TimerEvent: {}
+[0.600503] (-) TimerEvent: {}
+[0.686956] (px4_swarm_drawer) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700595] (-) TimerEvent: {}
+[0.790845] (px4_swarm_drawer) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.800706] (-) TimerEvent: {}
+[0.839854] (px4_swarm_drawer) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.845098] (px4_swarm_drawer) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.854615] (px4_swarm_drawer) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.868728] (px4_swarm_drawer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.887387] (px4_swarm_drawer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900846] (-) TimerEvent: {}
+[0.937663] (px4_swarm_drawer) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.941161] (px4_swarm_drawer) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.000979] (-) TimerEvent: {}
+[1.065415] (px4_swarm_drawer) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.101138] (-) TimerEvent: {}
+[1.111715] (px4_swarm_drawer) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.159211] (px4_swarm_drawer) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.169745] (px4_swarm_drawer) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.201225] (-) TimerEvent: {}
+[1.264946] (px4_swarm_drawer) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.265306] (px4_swarm_drawer) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.301320] (-) TimerEvent: {}
+[1.356452] (px4_swarm_drawer) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.357407] (px4_swarm_drawer) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.401413] (-) TimerEvent: {}
+[1.425289] (px4_swarm_drawer) StderrLine: {'line': b'CMake Error at CMakeLists.txt:10 (find_package):\n'}
+[1.425472] (px4_swarm_drawer) StderrLine: {'line': b'  By not providing "Findpx4_ros2.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.425549] (px4_swarm_drawer) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "px4_ros2",\n'}
+[1.425607] (px4_swarm_drawer) StderrLine: {'line': b'  but CMake did not find one.\n'}
+[1.425658] (px4_swarm_drawer) StderrLine: {'line': b'\n'}
+[1.425763] (px4_swarm_drawer) StderrLine: {'line': b'  Could not find a package configuration file provided by "px4_ros2" with any\n'}
+[1.425825] (px4_swarm_drawer) StderrLine: {'line': b'  of the following names:\n'}
+[1.425883] (px4_swarm_drawer) StderrLine: {'line': b'\n'}
+[1.425937] (px4_swarm_drawer) StderrLine: {'line': b'    px4_ros2Config.cmake\n'}
+[1.425995] (px4_swarm_drawer) StderrLine: {'line': b'    px4_ros2-config.cmake\n'}
+[1.426046] (px4_swarm_drawer) StderrLine: {'line': b'\n'}
+[1.426145] (px4_swarm_drawer) StderrLine: {'line': b'  Add the installation prefix of "px4_ros2" to CMAKE_PREFIX_PATH or set\n'}
+[1.426222] (px4_swarm_drawer) StderrLine: {'line': b'  "px4_ros2_DIR" to a directory containing one of the above files.  If\n'}
+[1.426279] (px4_swarm_drawer) StderrLine: {'line': b'  "px4_ros2" provides a separate development package or SDK, be sure it has\n'}
+[1.426332] (px4_swarm_drawer) StderrLine: {'line': b'  been installed.\n'}
+[1.426382] (px4_swarm_drawer) StderrLine: {'line': b'\n'}
+[1.426430] (px4_swarm_drawer) StderrLine: {'line': b'\n'}
+[1.426469] (px4_swarm_drawer) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.426517] (px4_swarm_drawer) StdoutLine: {'line': b'See also "/home/rudra/custom_flightmode/build/px4_swarm_drawer/CMakeFiles/CMakeOutput.log".\n'}
+[1.438403] (px4_swarm_drawer) CommandEnded: {'returncode': 1}
+[1.464836] (px4_swarm_drawer) JobEnded: {'identifier': 'px4_swarm_drawer', 'rc': 1}
+[1.475440] (-) EventReactorShutdown: {}

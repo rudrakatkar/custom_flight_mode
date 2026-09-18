@@ -1,0 +1,8 @@
+In file included from /home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/src/main.cpp:10:
+/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode-main/include/mode.hpp:8:10: fatal error: std_msgs/msg/empty.hpp: No such file or directory
+    8 | #include <std_msgs/msg/empty.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/draw_r.dir/build.make:76: CMakeFiles/draw_r.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/draw_r.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

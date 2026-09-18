@@ -1,0 +1,61 @@
+[0.038s] Invoking command in '/home/rudra/custom_flightmode/build/px4_ros2_py': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rudra/custom_flightmode/src/px4-ros2-interface-lib/px4_ros2_py -DCMAKE_INSTALL_PREFIX=/home/rudra/custom_flightmode/install/px4_ros2_py
+[0.112s] -- The C compiler identification is GNU 11.4.0
+[0.204s] -- The CXX compiler identification is GNU 11.4.0
+[0.233s] -- Detecting C compiler ABI info
+[0.350s] -- Detecting C compiler ABI info - done
+[0.362s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.362s] -- Detecting C compile features
+[0.363s] -- Detecting C compile features - done
+[0.367s] -- Detecting CXX compiler ABI info
+[0.491s] -- Detecting CXX compiler ABI info - done
+[0.503s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.504s] -- Detecting CXX compile features
+[0.505s] -- Detecting CXX compile features - done
+[0.508s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.066s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.196s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.260s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.268s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.279s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.319s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.383s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.384s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.538s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.583s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.655s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.667s] -- Looking for pthread.h
+[1.758s] -- Looking for pthread.h - found
+[1.759s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.874s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.876s] -- Found Threads: TRUE  
+[1.963s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[1.966s] -- Found px4_ros2_cpp: 0.0.1 (/home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake)
+[3.168s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+[3.314s] -- Performing Test HAS_FLTO
+[3.729s] -- Performing Test HAS_FLTO - Success
+[3.729s] -- Found pybind11: /usr/include (found version "2.9.1")
+[4.135s] -- Configuring done
+[4.160s] -- Generating done
+[4.171s] -- Build files have been written to: /home/rudra/custom_flightmode/build/px4_ros2_py
+[4.205s] Invoked command in '/home/rudra/custom_flightmode/build/px4_ros2_py' returned '0': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rudra/custom_flightmode/src/px4-ros2-interface-lib/px4_ros2_py -DCMAKE_INSTALL_PREFIX=/home/rudra/custom_flightmode/install/px4_ros2_py
+[4.207s] Invoking command in '/home/rudra/custom_flightmode/build/px4_ros2_py': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudra/custom_flightmode/build/px4_ros2_py -- -j12 -l12
+[7.587s] [ 12%] [32mBuilding CXX object CMakeFiles/px4_ros2_py.dir/src/px4_ros2/bind_main.cpp.o[0m
+[7.587s] [ 25%] [32mBuilding CXX object CMakeFiles/px4_ros2_py.dir/src/px4_ros2/components/mode.cpp.o[0m
+[7.587s] [ 37%] [32mBuilding CXX object CMakeFiles/px4_ros2_py.dir/src/px4_ros2/components/node_wrapper.cpp.o[0m
+[7.587s] [ 62%] [32mBuilding CXX object CMakeFiles/px4_ros2_py.dir/src/px4_ros2/components/mode_executor.cpp.o[0m
+[7.587s] [ 62%] [32mBuilding CXX object CMakeFiles/px4_ros2_py.dir/src/px4_ros2/control/setpoint_types/multicopter/goto.cpp.o[0m
+[7.587s] [ 75%] [32mBuilding CXX object CMakeFiles/px4_ros2_py.dir/src/px4_ros2/odometry/local_position.cpp.o[0m
+[7.587s] [ 87%] [32mBuilding CXX object CMakeFiles/px4_ros2_py.dir/src/px4_ros2/utils/geometry.cpp.o[0m
+[7.587s] [ 87%] Built target ament_cmake_python_copy_px4_ros2
+[7.587s] running egg_info
+[7.587s] creating px4_ros2.egg-info
+[7.587s] writing px4_ros2.egg-info/PKG-INFO
+[7.588s] writing dependency_links to px4_ros2.egg-info/dependency_links.txt
+[7.588s] writing top-level names to px4_ros2.egg-info/top_level.txt
+[7.588s] writing manifest file 'px4_ros2.egg-info/SOURCES.txt'
+[7.588s] reading manifest file 'px4_ros2.egg-info/SOURCES.txt'
+[7.588s] writing manifest file 'px4_ros2.egg-info/SOURCES.txt'
+[7.588s] [ 87%] Built target ament_cmake_python_build_px4_ros2_egg
+[13.931s] [100%] [32m[1mLinking CXX shared module px4_ros2_py.cpython-310-x86_64-linux-gnu.so[0m
+[19.208s] [100%] Built target px4_ros2_py

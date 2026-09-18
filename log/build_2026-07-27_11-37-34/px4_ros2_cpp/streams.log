@@ -1,0 +1,125 @@
+[0.011s] Invoking command in '/home/rudra/custom_flightmode/build/px4_ros2_cpp': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudra/custom_flightmode/build/px4_ros2_cpp -- -j12 -l12
+[0.079s] [  1%] Built target generate_px4_header
+[0.083s] [  7%] Built target gtest_main
+[0.083s] [  7%] Built target gtest
+[0.087s] [  9%] Built target integration_utils
+[0.088s] [ 12%] Built target unit_utils
+[0.194s] [ 69%] Built target px4_ros2_cpp
+[0.244s] [ 81%] Built target integration_tests
+[0.245s] [100%] Built target px4_ros2_cpp_unit_tests
+[0.262s] Invoked command in '/home/rudra/custom_flightmode/build/px4_ros2_cpp' returned '0': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudra/custom_flightmode/build/px4_ros2_cpp -- -j12 -l12
+[0.263s] Invoking command in '/home/rudra/custom_flightmode/build/px4_ros2_cpp': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rudra/custom_flightmode/build/px4_ros2_cpp
+[0.274s] -- Install configuration: ""
+[0.274s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/library_path.sh
+[0.274s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/library_path.dsv
+[0.274s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2
+[0.274s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/vehicle_state
+[0.275s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/home_position_setter.hpp
+[0.275s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/home_position.hpp
+[0.275s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/groups.dox
+[0.275s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/vtol_status.hpp
+[0.275s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/vehicle_status.hpp
+[0.275s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/land_detected.hpp
+[0.275s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/battery.hpp
+[0.275s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/navigation
+[0.275s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/navigation/groups.dox
+[0.275s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental
+[0.275s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/local_position_measurement_interface.hpp
+[0.275s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/navigation_interface_base.hpp
+[0.276s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/global_position_measurement_interface.hpp
+[0.276s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/third_party
+[0.276s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/third_party/nlohmann
+[0.276s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/third_party/nlohmann/json_fwd.hpp
+[0.276s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/third_party/nlohmann/json.hpp
+[0.276s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control
+[0.276s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/peripheral_actuators.hpp
+[0.276s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/groups.dox
+[0.276s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/vtol.hpp
+[0.276s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types
+[0.277s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/direct_actuators.hpp
+[0.277s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/multicopter
+[0.277s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/multicopter/goto.hpp
+[0.277s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/groups.dox
+[0.277s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/fixedwing
+[0.277s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/fixedwing/lateral_longitudinal.hpp
+[0.277s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental
+[0.278s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/rover
+[0.278s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/rover/throttle_steering.hpp
+[0.278s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/rover/position.hpp
+[0.278s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/rover/throttle_rate.hpp
+[0.278s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/rover/speed_attitude.hpp
+[0.278s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/rover/speed_steering.hpp
+[0.278s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/rover/speed_rate.hpp
+[0.278s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/rover/throttle_attitude.hpp
+[0.278s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/rates.hpp
+[0.278s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/trajectory.hpp
+[0.278s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/attitude.hpp
+[0.278s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components
+[0.278s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/wait_for_fmu.hpp
+[0.278s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/overrides.hpp
+[0.279s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/mode.hpp
+[0.279s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/node_with_mode.hpp
+[0.279s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/groups.dox
+[0.279s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/health_and_arming_checks.hpp
+[0.279s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/message_compatibility_check.hpp
+[0.279s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/mode_executor.hpp
+[0.279s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/shared_subscription.hpp
+[0.279s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/manual_control_input.hpp
+[0.279s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/events.hpp
+[0.279s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/mission
+[0.279s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/mission/mission_executor.hpp
+[0.279s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/mission/mission.hpp
+[0.279s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/mission/trajectory
+[0.279s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/mission/trajectory/multicopter
+[0.279s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/mission/trajectory/multicopter/groups.dox
+[0.279s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/mission/trajectory/multicopter/waypoint_trajectory_executor.hpp
+[0.279s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/mission/trajectory/trajectory_executor.hpp
+[0.280s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/mission/groups.dox
+[0.280s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/mission/actions
+[0.280s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/mission/actions/action.hpp
+[0.280s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/mission/actions/default_actions.hpp
+[0.280s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/mission/actions/groups.dox
+[0.280s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/odometry
+[0.280s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/odometry/local_position.hpp
+[0.280s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/odometry/angular_velocity.hpp
+[0.280s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/odometry/global_position.hpp
+[0.280s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/odometry/groups.dox
+[0.280s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/odometry/attitude.hpp
+[0.280s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/odometry/odometry.hpp
+[0.280s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/odometry/airspeed.hpp
+[0.280s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/utils
+[0.280s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/utils/message_version.hpp
+[0.281s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/utils/frame_conversion.hpp
+[0.281s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/utils/groups.dox
+[0.281s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/utils/geometry.hpp
+[0.281s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/utils/visit.hpp
+[0.281s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/utils/geodesic.hpp
+[0.281s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/utils/vehicle_command_sender.hpp
+[0.281s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/utils/subscription.hpp
+[0.281s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/common
+[0.281s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/common/setpoint_base.hpp
+[0.282s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/common/requirement_flags.hpp
+[0.282s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/common/context.hpp
+[0.282s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/common/frame.hpp
+[0.282s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/common/exception.hpp
+[0.282s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/lib/libpx4_ros2_cpp.so
+[0.283s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/ament_index/resource_index/package_run_dependencies/px4_ros2_cpp
+[0.283s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/ament_index/resource_index/parent_prefix_path/px4_ros2_cpp
+[0.284s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/ament_prefix_path.sh
+[0.284s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/ament_prefix_path.dsv
+[0.284s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/path.sh
+[0.284s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/path.dsv
+[0.284s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.bash
+[0.284s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.sh
+[0.284s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.zsh
+[0.284s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.dsv
+[0.284s] -- Installing: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/package.dsv
+[0.284s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/ament_index/resource_index/packages/px4_ros2_cpp
+[0.284s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppExport.cmake
+[0.285s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppExport-noconfig.cmake
+[0.285s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/ament_cmake_export_targets-extras.cmake
+[0.285s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.285s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppConfig.cmake
+[0.285s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppConfig-version.cmake
+[0.285s] -- Up-to-date: /home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/package.xml
+[0.285s] Invoked command in '/home/rudra/custom_flightmode/build/px4_ros2_cpp' returned '0': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rudra/custom_flightmode/build/px4_ros2_cpp

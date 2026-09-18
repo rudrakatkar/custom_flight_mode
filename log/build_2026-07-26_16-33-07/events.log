@@ -1,0 +1,203 @@
+[0.000000] (-) TimerEvent: {}
+[0.000633] (-) JobUnselected: {'identifier': 'example_executor_with_multiple_modes_cpp'}
+[0.000666] (-) JobUnselected: {'identifier': 'example_global_navigation_cpp'}
+[0.000686] (-) JobUnselected: {'identifier': 'example_local_navigation_cpp'}
+[0.000703] (-) JobUnselected: {'identifier': 'example_mode_fw_attitude_cpp'}
+[0.000719] (-) JobUnselected: {'identifier': 'example_mode_goto_cpp'}
+[0.000734] (-) JobUnselected: {'identifier': 'example_mode_goto_global_cpp'}
+[0.000749] (-) JobUnselected: {'identifier': 'example_mode_goto_py'}
+[0.000764] (-) JobUnselected: {'identifier': 'example_mode_manual_cpp'}
+[0.000777] (-) JobUnselected: {'identifier': 'example_mode_mission_cpp'}
+[0.000790] (-) JobUnselected: {'identifier': 'example_mode_rtl_replacement_cpp'}
+[0.000804] (-) JobUnselected: {'identifier': 'example_mode_vtol_cpp'}
+[0.000817] (-) JobUnselected: {'identifier': 'example_mode_with_executor_cpp'}
+[0.000831] (-) JobUnselected: {'identifier': 'example_mode_with_rclpy_py'}
+[0.000845] (-) JobUnselected: {'identifier': 'example_rover_velocity_mode_cpp'}
+[0.000859] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000873] (-) JobUnselected: {'identifier': 'px4_ros2_cpp'}
+[0.000965] (-) JobUnselected: {'identifier': 'px4_ros2_py'}
+[0.000998] (draw_flight_mode) JobQueued: {'identifier': 'draw_flight_mode', 'dependencies': OrderedDict([('px4_msgs', '/home/rudra/custom_flightmode/install/px4_msgs'), ('px4_ros2_cpp', '/home/rudra/custom_flightmode/install/px4_ros2_cpp')])}
+[0.001025] (draw_flight_mode) JobStarted: {'identifier': 'draw_flight_mode'}
+[0.010688] (draw_flight_mode) JobProgress: {'identifier': 'draw_flight_mode', 'progress': 'cmake'}
+[0.011191] (draw_flight_mode) JobProgress: {'identifier': 'draw_flight_mode', 'progress': 'build'}
+[0.011683] (draw_flight_mode) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rudra/custom_flightmode/build/draw_flight_mode', '--', '-j12', '-l12'], 'cwd': '/home/rudra/custom_flightmode/build/draw_flight_mode', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rudra'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rudra'), ('OLDPWD', '/home/rudra'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/rudra/.nvm/versions/node/v24.16.0/bin'), ('NVM_INC', '/home/rudra/.nvm/versions/node/v24.16.0/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1973'), ('SYSTEMD_EXEC_PID', '2271'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13409'), ('NVM_DIR', '/home/rudra/.nvm'), ('COLCON_PREFIX_PATH', '/home/rudra/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rudra'), ('JOURNAL_STREAM', '8:20724'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rudra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/rudra/.nvm/versions/node/v24.16.0/bin:/opt/ros/humble/bin:/usr/lib/ccache:/home/rudra/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/rudra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/victus:@/tmp/.ICE-unix/2248,unix/victus:/tmp/.ICE-unix/2248'), ('INVOCATION_ID', '8c5daa2086b5432e8c3056dc454adbde'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:3c6262fb-ad3b-436a-b8af-c0ebfd94123b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rudra/custom_flightmode/build/draw_flight_mode'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:/home/rudra/ros2_ws/install/talker_listener/lib/python3.10/site-packages:/home/rudra/ros2_ws/install/first_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble')]), 'shell': False}
+[0.050606] (draw_flight_mode) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target draw_r\x1b[0m\n'}
+[0.071124] (draw_flight_mode) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/draw_r.dir/src/main.cpp.o\x1b[0m\n'}
+[0.099799] (-) TimerEvent: {}
+[0.200071] (-) TimerEvent: {}
+[0.300356] (-) TimerEvent: {}
+[0.400645] (-) TimerEvent: {}
+[0.500900] (-) TimerEvent: {}
+[0.601174] (-) TimerEvent: {}
+[0.701435] (-) TimerEvent: {}
+[0.801702] (-) TimerEvent: {}
+[0.901969] (-) TimerEvent: {}
+[1.002246] (-) TimerEvent: {}
+[1.102566] (-) TimerEvent: {}
+[1.202836] (-) TimerEvent: {}
+[1.303126] (-) TimerEvent: {}
+[1.403398] (-) TimerEvent: {}
+[1.503657] (-) TimerEvent: {}
+[1.603945] (-) TimerEvent: {}
+[1.704223] (-) TimerEvent: {}
+[1.804494] (-) TimerEvent: {}
+[1.905176] (-) TimerEvent: {}
+[2.005456] (-) TimerEvent: {}
+[2.105757] (-) TimerEvent: {}
+[2.206045] (-) TimerEvent: {}
+[2.306316] (-) TimerEvent: {}
+[2.406581] (-) TimerEvent: {}
+[2.506839] (-) TimerEvent: {}
+[2.607110] (-) TimerEvent: {}
+[2.707378] (-) TimerEvent: {}
+[2.807634] (-) TimerEvent: {}
+[2.907898] (-) TimerEvent: {}
+[3.008196] (-) TimerEvent: {}
+[3.108775] (-) TimerEvent: {}
+[3.209060] (-) TimerEvent: {}
+[3.309309] (-) TimerEvent: {}
+[3.409567] (-) TimerEvent: {}
+[3.509814] (-) TimerEvent: {}
+[3.610099] (-) TimerEvent: {}
+[3.710352] (-) TimerEvent: {}
+[3.810617] (-) TimerEvent: {}
+[3.910898] (-) TimerEvent: {}
+[4.011169] (-) TimerEvent: {}
+[4.111435] (-) TimerEvent: {}
+[4.211685] (-) TimerEvent: {}
+[4.252777] (draw_flight_mode) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:8\x1b[m\x1b[K:\n'}
+[4.253373] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:250:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvirt-specifiers in \xe2\x80\x98\x1b[01m\x1b[KonActivate\x1b[m\x1b[K\xe2\x80\x99 not allowed outside a class definition\n'}
+[4.253449] (draw_flight_mode) StderrLine: {'line': b'  250 |   void onActivate() \x1b[01;31m\x1b[Koverride\x1b[m\x1b[K\n'}
+[4.253509] (draw_flight_mode) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.253564] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid onActivate()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.253620] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:252:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KrunState\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.253676] (draw_flight_mode) StderrLine: {'line': b'  252 |     \x1b[01;31m\x1b[KrunState\x1b[m\x1b[K(State::Arming, px4_ros2::Result::Success);\n'}
+[4.253732] (draw_flight_mode) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.253786] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:\x1b[m\x1b[K At global scope:\n'}
+[4.253839] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:255:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[KonDeactivate\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[4.253894] (draw_flight_mode) StderrLine: {'line': b'  255 |   void \x1b[01;31m\x1b[KonDeactivate\x1b[m\x1b[K(DeactivateReason reason) override\n'}
+[4.254115] (draw_flight_mode) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.254176] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:255:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDeactivateReason\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.254228] (draw_flight_mode) StderrLine: {'line': b'  255 |   void onDeactivate(\x1b[01;31m\x1b[KDeactivateReason\x1b[m\x1b[K reason) override\n'}
+[4.254280] (draw_flight_mode) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.254327] (draw_flight_mode) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.254367] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.254411] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.254459] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.254500] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.254538] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.254577] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.254616] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.254656] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.254723] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.254766] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[4.254807] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid runState(State, px4_ros2::Result)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.254849] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:263:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.254898] (draw_flight_mode) StderrLine: {'line': b'  263 |         \x1b[01;31m\x1b[K_node\x1b[m\x1b[K.get_logger(), "State %i: previous state failed: %s", (int)state,\n'}
+[4.254954] (draw_flight_mode) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.255026] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:262:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.255070] (draw_flight_mode) StderrLine: {'line': b'  262 |       \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(\n'}
+[4.255109] (draw_flight_mode) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.255148] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:268:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.255187] (draw_flight_mode) StderrLine: {'line': b'  268 |     RCLCPP_DEBUG(\x1b[01;31m\x1b[K_node\x1b[m\x1b[K.get_logger(), "Executing state %i", (int)state);\n'}
+[4.255252] (draw_flight_mode) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.255293] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:268:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.255332] (draw_flight_mode) StderrLine: {'line': b'  268 |     \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(_node.get_logger(), "Executing state %i", (int)state);\n'}
+[4.255379] (draw_flight_mode) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.255420] (draw_flight_mode) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:8\x1b[m\x1b[K:\n'}
+[4.255464] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:275:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[4.255511] (draw_flight_mode) StderrLine: {'line': b'  275 |         arm([\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K](px4_ros2::Result result) {runState(State::TakingOff, result);});\n'}
+[4.255548] (draw_flight_mode) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.255585] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:275:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Karm\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.255624] (draw_flight_mode) StderrLine: {'line': b'  275 |         \x1b[01;31m\x1b[Karm\x1b[m\x1b[K([this](px4_ros2::Result result) {runState(State::TakingOff, result);});\n'}
+[4.255660] (draw_flight_mode) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.255696] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:279:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[4.255733] (draw_flight_mode) StderrLine: {'line': b'  279 |         takeoff([\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K](px4_ros2::Result result) {runState(State::DrawMode, result);}, 30.f);\n'}
+[4.255770] (draw_flight_mode) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.255806] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:279:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktakeoff\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.255843] (draw_flight_mode) StderrLine: {'line': b'  279 |         \x1b[01;31m\x1b[Ktakeoff\x1b[m\x1b[K([this](px4_ros2::Result result) {runState(State::DrawMode, result);}, 30.f);\n'}
+[4.255880] (draw_flight_mode) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.255927] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:284:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KownedMode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.255972] (draw_flight_mode) StderrLine: {'line': b'  284 |           \x1b[01;31m\x1b[KownedMode\x1b[m\x1b[K().id(), [this](px4_ros2::Result result) {\n'}
+[4.256010] (draw_flight_mode) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.256048] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:284:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[4.256087] (draw_flight_mode) StderrLine: {'line': b'  284 |           ownedMode().id(), [\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K](px4_ros2::Result result) {\n'}
+[4.256130] (draw_flight_mode) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.256169] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:283:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KscheduleMode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.256207] (draw_flight_mode) StderrLine: {'line': b'  283 |         \x1b[01;31m\x1b[KscheduleMode\x1b[m\x1b[K(\n'}
+[4.256243] (draw_flight_mode) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.256280] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:290:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[4.256325] (draw_flight_mode) StderrLine: {'line': b'  290 |         rtl([\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K](px4_ros2::Result result) {runState(State::WaitUntilDisarmed, result);});\n'}
+[4.256371] (draw_flight_mode) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.256412] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:290:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krtl\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.256453] (draw_flight_mode) StderrLine: {'line': b'  290 |         \x1b[01;31m\x1b[Krtl\x1b[m\x1b[K([this](px4_ros2::Result result) {runState(State::WaitUntilDisarmed, result);});\n'}
+[4.256493] (draw_flight_mode) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.256532] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:295:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[4.256571] (draw_flight_mode) StderrLine: {'line': b'  295 |           [\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K](px4_ros2::Result result) {\n'}
+[4.256609] (draw_flight_mode) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.256647] (draw_flight_mode) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.256684] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.256721] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.256758] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.256796] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.256833] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.256876] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.256919] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.256969] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.257007] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.257043] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[4.257080] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:\x1b[m\x1b[K In lambda function:\n'}
+[4.257117] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:296:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_node\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.257154] (draw_flight_mode) StderrLine: {'line': b'  296 |             RCLCPP_INFO(\x1b[01;31m\x1b[K_node\x1b[m\x1b[K.get_logger(), "All states complete (%s)", resultToString(result));\n'}
+[4.257191] (draw_flight_mode) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.257234] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:296:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.257301] (draw_flight_mode) StderrLine: {'line': b'  296 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(_node.get_logger(), "All states complete (%s)", resultToString(result));\n'}
+[4.257346] (draw_flight_mode) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.257387] (draw_flight_mode) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:8\x1b[m\x1b[K:\n'}
+[4.257429] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid runState(State, px4_ros2::Result)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.257470] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:294:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KwaitUntilDisarmed\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.257512] (draw_flight_mode) StderrLine: {'line': b'  294 |         \x1b[01;31m\x1b[KwaitUntilDisarmed\x1b[m\x1b[K(\n'}
+[4.257553] (draw_flight_mode) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.257594] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:\x1b[m\x1b[K At global scope:\n'}
+[4.257635] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:302:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.257677] (draw_flight_mode) StderrLine: {'line': b'  302 | \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[4.257717] (draw_flight_mode) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.257757] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:304:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.257798] (draw_flight_mode) StderrLine: {'line': b'  304 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[4.257983] (draw_flight_mode) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.258203] (draw_flight_mode) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[4.258254] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[4.258299] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:6\x1b[m\x1b[K:\n'}
+[4.258344] (draw_flight_mode) StderrLine: {'line': b'/usr/include/c++/11/bits/unique_ptr.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = DrawModeExecutor; _Args = {DrawFlightMode&}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<DrawModeExecutor, std::default_delete<DrawModeExecutor> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.258392] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/node_with_mode.hpp:140:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto px4_ros2::NodeWithModeExecutor<ModeExecutorT, OwnedModeT, OtherModesT>::createModeExecutor(std::index_sequence<__var_indices ...>) [with long unsigned int ...Idx = {}; ModeExecutorT = DrawModeExecutor; OwnedModeT = DrawFlightMode; OtherModesT = {}; std::index_sequence<__var_indices ...> = std::integer_sequence<long unsigned int>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.258719] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/node_with_mode.hpp:112:40:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kpx4_ros2::NodeWithModeExecutor<ModeExecutorT, OwnedModeT, OtherModesT>::NodeWithModeExecutor(std::string, bool) [with ModeExecutorT = DrawModeExecutor; OwnedModeT = DrawFlightMode; OtherModesT = {}; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.258767] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:4:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.258848] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.258899] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Alloc = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.258966] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Alloc = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.259013] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.259111] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.259177] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Alloc = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.259223] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.259267] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:20:54:\x1b[m\x1b[K   required from here\n'}
+[4.259312] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:962:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid new-expression of abstract class type \xe2\x80\x98\x1b[01m\x1b[KDrawModeExecutor\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.259356] (draw_flight_mode) StderrLine: {'line': b'  962 |     { return unique_ptr<_Tp>(\x1b[01;31m\x1b[Knew _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K); }\n'}
+[4.259429] (draw_flight_mode) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.259536] (draw_flight_mode) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:8\x1b[m\x1b[K:\n'}
+[4.259583] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:225:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  because the following virtual functions are pure within \xe2\x80\x98\x1b[01m\x1b[KDrawModeExecutor\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.259627] (draw_flight_mode) StderrLine: {'line': b'  225 | class \x1b[01;36m\x1b[KDrawModeExecutor\x1b[m\x1b[K : public px4_ros2::ModeExecutorBase\n'}
+[4.259669] (draw_flight_mode) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.259714] (draw_flight_mode) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:8\x1b[m\x1b[K,\n'}
+[4.259758] (draw_flight_mode) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:8\x1b[m\x1b[K:\n'}
+[4.259801] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/mode_executor.hpp:64:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual void px4_ros2::ModeExecutorBase::onActivate()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.259843] (draw_flight_mode) StderrLine: {'line': b'   64 |   virtual void \x1b[01;36m\x1b[KonActivate\x1b[m\x1b[K() = 0;\n'}
+[4.259885] (draw_flight_mode) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.260313] (draw_flight_mode) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/mode_executor.hpp:69:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual void px4_ros2::ModeExecutorBase::onDeactivate(px4_ros2::ModeExecutorBase::DeactivateReason)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.260536] (draw_flight_mode) StderrLine: {'line': b'   69 |   virtual void \x1b[01;36m\x1b[KonDeactivate\x1b[m\x1b[K(DeactivateReason reason) = 0;\n'}
+[4.260610] (draw_flight_mode) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.260676] (draw_flight_mode) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/draw_r.dir/build.make:76: CMakeFiles/draw_r.dir/src/main.cpp.o] Error 1\n'}
+[4.260740] (draw_flight_mode) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/draw_r.dir/all] Error 2\n'}
+[4.260799] (draw_flight_mode) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.260971] (draw_flight_mode) CommandEnded: {'returncode': 2}
+[4.267446] (draw_flight_mode) JobEnded: {'identifier': 'draw_flight_mode', 'rc': 2}
+[4.277883] (-) EventReactorShutdown: {}

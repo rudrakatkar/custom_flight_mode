@@ -1,0 +1,51 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found px4_ros2_cpp: 0.0.1 (/home/rudra/custom_flightmode/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rudra/custom_flightmode/build/px4_swarm_drawer
+[ 50%] [32mBuilding CXX object CMakeFiles/swarm_mode_node.dir/src/main.cpp.o[0m
+In file included from /home/rudra/custom_flightmode/src/px4_swarm_drawer/src/main.cpp:2:
+/home/rudra/custom_flightmode/src/px4_swarm_drawer/include/px4_swarm_drawer/modes.hpp: In member function ‘virtual void DrawBaseMode::onActivate()’:
+/home/rudra/custom_flightmode/src/px4_swarm_drawer/include/px4_swarm_drawer/modes.hpp:37:23: error: ‘get_node’ was not declared in this scope; did you mean ‘_node’?
+   37 |         start_time_ = get_node().get_clock()->now();
+      |                       ^~~~~~~~
+      |                       _node
+/home/rudra/custom_flightmode/src/px4_swarm_drawer/include/px4_swarm_drawer/modes.hpp: In member function ‘virtual void DrawBaseMode::updateSetpoint(float)’:
+/home/rudra/custom_flightmode/src/px4_swarm_drawer/include/px4_swarm_drawer/modes.hpp:43:21: error: ‘get_node’ was not declared in this scope; did you mean ‘_node’?
+   43 |         double t = (get_node().get_clock()->now() - start_time_).seconds();
+      |                     ^~~~~~~~
+      |                     _node
+/home/rudra/custom_flightmode/src/px4_swarm_drawer/include/px4_swarm_drawer/modes.hpp:65:37: error: no matching function for call to ‘px4_ros2::TrajectorySetpointType::update(<brace-enclosed initializer list>, <brace-enclosed initializer list>)’
+   65 |         trajectory_setpoint_->update(
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+   66 |             {static_cast<float>(nom_pos.x()), static_cast<float>(nom_pos.y()), static_cast<float>(nom_pos.z())},
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   67 |             {static_cast<float>(u_safe.x()), static_cast<float>(u_safe.y()), static_cast<float>(u_safe.z())}
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   68 |         );
+      |         ~                            
+In file included from /home/rudra/custom_flightmode/src/px4_swarm_drawer/include/px4_swarm_drawer/modes.hpp:4,
+                 from /home/rudra/custom_flightmode/src/px4_swarm_drawer/src/main.cpp:2:
+/home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/trajectory.hpp:40:8: note: candidate: ‘void px4_ros2::TrajectorySetpointType::update(const Vector3f&, const std::optional<Eigen::Matrix<float, 3, 1> >&, std::optional<float>, std::optional<float>)’
+   40 |   void update(const Eigen::Vector3f& velocity_ned_m_s,
+      |        ^~~~~~
+/home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/trajectory.hpp:41:53: note:   no known conversion for argument 2 from ‘<brace-enclosed initializer list>’ to ‘const std::optional<Eigen::Matrix<float, 3, 1> >&’
+   41 |               const std::optional<Eigen::Vector3f>& acceleration_ned_m_s2 = {},
+      |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/trajectory.hpp:54:8: note: candidate: ‘void px4_ros2::TrajectorySetpointType::update(const px4_ros2::TrajectorySetpoint&)’
+   54 |   void update(const TrajectorySetpoint& setpoint);
+      |        ^~~~~~
+/home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/trajectory.hpp:54:8: note:   candidate expects 1 argument, 2 provided
+gmake[2]: *** [CMakeFiles/swarm_mode_node.dir/build.make:76: CMakeFiles/swarm_mode_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/swarm_mode_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

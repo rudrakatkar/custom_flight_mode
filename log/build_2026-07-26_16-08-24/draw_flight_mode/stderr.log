@@ -1,0 +1,76 @@
+In file included from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:8[m[K:
+[01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:204:29:[m[K [01;31m[Kerror: [m[K‘[01m[KGotoSetpointType[m[K’ is not a member of ‘[01m[Kpx4_ros2[m[K’
+  204 |   std::shared_ptr<px4_ros2::[01;31m[KGotoSetpointType[m[K> _goto_setpoint;
+      |                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:204:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  204 |   std::shared_ptr<px4_ros2::GotoSetpointType[01;31m[K>[m[K _goto_setpoint;
+      |                                             [01;31m[K^[m[K
+In file included from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:8[m[K:
+[01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:[m[K In constructor ‘[01m[KDrawFlightMode::DrawFlightMode(rclcpp::Node&)[m[K’:
+[01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:39:49:[m[K [01;31m[Kerror: [m[K‘[01m[KGotoSetpointType[m[K’ is not a member of ‘[01m[Kpx4_ros2[m[K’
+   39 |     _goto_setpoint = std::make_shared<px4_ros2::[01;31m[KGotoSetpointType[m[K>(*this);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:39:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(DrawFlightMode&)[m[K’
+   39 |     _goto_setpoint = [01;31m[Kstd::make_shared<px4_ros2::GotoSetpointType>(*this)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:6[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:8[m[K:
+[01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:39:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   39 |     _goto_setpoint = [01;31m[Kstd::make_shared<px4_ros2::GotoSetpointType>(*this)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+In file included from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:8[m[K:
+[01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:[m[K In member function ‘[01m[Kvirtual void DrawFlightMode::updateSetpoint(float)[m[K’:
+[01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:74:23:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   74 |         _goto_setpoint[01;31m[K->[m[Kupdate(_start_position_m);
+      |                       [01;31m[K^~[m[K
+[01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:84:23:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   84 |         _goto_setpoint[01;31m[K->[m[Kupdate(
+      |                       [01;31m[K^~[m[K
+[01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:175:23:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  175 |         _goto_setpoint[01;31m[K->[m[Kupdate(_target_position_m, -M_PI_2, _horizontal_speed_m_s);
+      |                       [01;31m[K^~[m[K
+[01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:186:23:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  186 |         _goto_setpoint[01;31m[K->[m[Kupdate(target_position_m, M_PI - M_PI / 3, _horizontal_speed_m_s);
+      |                       [01;31m[K^~[m[K
+[01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:[m[K In constructor ‘[01m[KDrawModeExecutor::DrawModeExecutor(rclcpp::Node&, px4_ros2::ModeBase&)[m[K’:
+[01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:250:15:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kpx4_ros2::ModeExecutorBase::ModeExecutorBase(rclcpp::Node&, <brace-enclosed initializer list>, px4_ros2::ModeBase&)[m[K’
+  250 |     _node(node[01;31m[K)[m[K
+      |               [01;31m[K^[m[K
+In file included from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:8[m[K,
+                 from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:8[m[K:
+[01m[K/home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/mode_executor.hpp:51:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kpx4_ros2::ModeExecutorBase::ModeExecutorBase(const px4_ros2::ModeExecutorBase::Settings&, px4_ros2::ModeBase&)[m[K’
+   51 |   [01;36m[KModeExecutorBase[m[K(const Settings& settings, ModeBase& owned_mode);
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/mode_executor.hpp:51:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:6[m[K:
+/usr/include/c++/11/bits/unique_ptr.h: In instantiation of ‘[01m[Ktypename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = DrawModeExecutor; _Args = {DrawFlightMode&}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<DrawModeExecutor, std::default_delete<DrawModeExecutor> >][m[K’:
+[01m[K/home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/node_with_mode.hpp:140:45:[m[K   required from ‘[01m[Kauto px4_ros2::NodeWithModeExecutor<ModeExecutorT, OwnedModeT, OtherModesT>::createModeExecutor(std::index_sequence<__var_indices ...>) [with long unsigned int ...Idx = {}; ModeExecutorT = DrawModeExecutor; OwnedModeT = DrawFlightMode; OtherModesT = {}; std::index_sequence<__var_indices ...> = std::integer_sequence<long unsigned int>][m[K’
+[01m[K/home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/node_with_mode.hpp:112:40:[m[K   required from ‘[01m[Kpx4_ros2::NodeWithModeExecutor<ModeExecutorT, OwnedModeT, OtherModesT>::NodeWithModeExecutor(std::string, bool) [with ModeExecutorT = DrawModeExecutor; OwnedModeT = DrawFlightMode; OtherModesT = {}; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:4:[m[K   required from ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>][m[K’
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Alloc = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Alloc = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Alloc = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}][m[K’
+[01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:20:54:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:962:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDrawModeExecutor::DrawModeExecutor(DrawFlightMode&)[m[K’
+  962 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:8[m[K:
+[01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:248:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KDrawModeExecutor::DrawModeExecutor(rclcpp::Node&, px4_ros2::ModeBase&)[m[K’
+  248 |   [01;36m[KDrawModeExecutor[m[K(rclcpp::Node & node, px4_ros2::ModeBase & owned_mode)
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:248:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/draw_r.dir/build.make:76: CMakeFiles/draw_r.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/draw_r.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

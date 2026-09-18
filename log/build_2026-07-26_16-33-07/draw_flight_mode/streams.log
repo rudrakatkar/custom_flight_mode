@@ -1,0 +1,137 @@
+[0.013s] Invoking command in '/home/rudra/custom_flightmode/build/draw_flight_mode': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudra/custom_flightmode/build/draw_flight_mode -- -j12 -l12
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target draw_r[0m
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/draw_r.dir/src/main.cpp.o[0m
+[4.252s] In file included from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:8[m[K:
+[4.252s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:250:21:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[KonActivate[m[K’ not allowed outside a class definition
+[4.252s]   250 |   void onActivate() [01;31m[Koverride[m[K
+[4.253s]       |                     [01;31m[K^~~~~~~~[m[K
+[4.253s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:[m[K In function ‘[01m[Kvoid onActivate()[m[K’:
+[4.253s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:252:5:[m[K [01;31m[Kerror: [m[K‘[01m[KrunState[m[K’ was not declared in this scope
+[4.253s]   252 |     [01;31m[KrunState[m[K(State::Arming, px4_ros2::Result::Success);
+[4.253s]       |     [01;31m[K^~~~~~~~[m[K
+[4.253s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:[m[K At global scope:
+[4.253s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:255:8:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KonDeactivate[m[K’ declared void
+[4.253s]   255 |   void [01;31m[KonDeactivate[m[K(DeactivateReason reason) override
+[4.253s]       |        [01;31m[K^~~~~~~~~~~~[m[K
+[4.253s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:255:21:[m[K [01;31m[Kerror: [m[K‘[01m[KDeactivateReason[m[K’ was not declared in this scope
+[4.253s]   255 |   void onDeactivate([01;31m[KDeactivateReason[m[K reason) override
+[4.253s]       |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.253s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.253s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.254s]                  from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:6[m[K:
+[4.254s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:[m[K In function ‘[01m[Kvoid runState(State, px4_ros2::Result)[m[K’:
+[4.254s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:263:9:[m[K [01;31m[Kerror: [m[K‘[01m[K_node[m[K’ was not declared in this scope
+[4.254s]   263 |         [01;31m[K_node[m[K.get_logger(), "State %i: previous state failed: %s", (int)state,
+[4.254s]       |         [01;31m[K^~~~~[m[K
+[4.254s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:262:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.254s]   262 |       [01;31m[KRCLCPP_ERROR[m[K(
+[4.254s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[4.254s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:268:18:[m[K [01;31m[Kerror: [m[K‘[01m[K_node[m[K’ was not declared in this scope
+[4.254s]   268 |     RCLCPP_DEBUG([01;31m[K_node[m[K.get_logger(), "Executing state %i", (int)state);
+[4.254s]       |                  [01;31m[K^~~~~[m[K
+[4.254s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:268:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.254s]   268 |     [01;31m[KRCLCPP_DEBUG[m[K(_node.get_logger(), "Executing state %i", (int)state);
+[4.254s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[4.254s] In file included from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:8[m[K:
+[4.254s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:275:14:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.255s]   275 |         arm([[01;31m[Kthis[m[K](px4_ros2::Result result) {runState(State::TakingOff, result);});
+[4.255s]       |              [01;31m[K^~~~[m[K
+[4.255s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:275:9:[m[K [01;31m[Kerror: [m[K‘[01m[Karm[m[K’ was not declared in this scope
+[4.255s]   275 |         [01;31m[Karm[m[K([this](px4_ros2::Result result) {runState(State::TakingOff, result);});
+[4.255s]       |         [01;31m[K^~~[m[K
+[4.255s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:279:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.255s]   279 |         takeoff([[01;31m[Kthis[m[K](px4_ros2::Result result) {runState(State::DrawMode, result);}, 30.f);
+[4.255s]       |                  [01;31m[K^~~~[m[K
+[4.255s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:279:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktakeoff[m[K’ was not declared in this scope
+[4.255s]   279 |         [01;31m[Ktakeoff[m[K([this](px4_ros2::Result result) {runState(State::DrawMode, result);}, 30.f);
+[4.255s]       |         [01;31m[K^~~~~~~[m[K
+[4.255s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:284:11:[m[K [01;31m[Kerror: [m[K‘[01m[KownedMode[m[K’ was not declared in this scope
+[4.255s]   284 |           [01;31m[KownedMode[m[K().id(), [this](px4_ros2::Result result) {
+[4.255s]       |           [01;31m[K^~~~~~~~~[m[K
+[4.255s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:284:30:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.255s]   284 |           ownedMode().id(), [[01;31m[Kthis[m[K](px4_ros2::Result result) {
+[4.255s]       |                              [01;31m[K^~~~[m[K
+[4.255s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:283:9:[m[K [01;31m[Kerror: [m[K‘[01m[KscheduleMode[m[K’ was not declared in this scope
+[4.255s]   283 |         [01;31m[KscheduleMode[m[K(
+[4.255s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[4.255s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:290:14:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.255s]   290 |         rtl([[01;31m[Kthis[m[K](px4_ros2::Result result) {runState(State::WaitUntilDisarmed, result);});
+[4.255s]       |              [01;31m[K^~~~[m[K
+[4.255s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:290:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtl[m[K’ was not declared in this scope
+[4.255s]   290 |         [01;31m[Krtl[m[K([this](px4_ros2::Result result) {runState(State::WaitUntilDisarmed, result);});
+[4.255s]       |         [01;31m[K^~~[m[K
+[4.256s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:295:12:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[4.256s]   295 |           [[01;31m[Kthis[m[K](px4_ros2::Result result) {
+[4.256s]       |            [01;31m[K^~~~[m[K
+[4.256s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.256s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.256s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.256s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.256s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.256s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.256s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.256s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.256s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.256s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.256s]                  from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:6[m[K:
+[4.256s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:[m[K In lambda function:
+[4.256s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:296:25:[m[K [01;31m[Kerror: [m[K‘[01m[K_node[m[K’ was not declared in this scope
+[4.256s]   296 |             RCLCPP_INFO([01;31m[K_node[m[K.get_logger(), "All states complete (%s)", resultToString(result));
+[4.256s]       |                         [01;31m[K^~~~~[m[K
+[4.256s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:296:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.256s]   296 |             [01;31m[KRCLCPP_INFO[m[K(_node.get_logger(), "All states complete (%s)", resultToString(result));
+[4.256s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[4.256s] In file included from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:8[m[K:
+[4.256s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:[m[K In function ‘[01m[Kvoid runState(State, px4_ros2::Result)[m[K’:
+[4.256s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:294:9:[m[K [01;31m[Kerror: [m[K‘[01m[KwaitUntilDisarmed[m[K’ was not declared in this scope
+[4.257s]   294 |         [01;31m[KwaitUntilDisarmed[m[K(
+[4.257s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[4.257s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:[m[K At global scope:
+[4.257s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:302:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[4.257s]   302 | [01;31m[Kprivate[m[K:
+[4.257s]       | [01;31m[K^~~~~~~[m[K
+[4.257s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:304:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[4.257s]   304 | [01;31m[K}[m[K;
+[4.257s]       | [01;31m[K^[m[K
+[4.257s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.257s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.257s]                  from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:6[m[K:
+[4.257s] /usr/include/c++/11/bits/unique_ptr.h: In instantiation of ‘[01m[Ktypename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = DrawModeExecutor; _Args = {DrawFlightMode&}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<DrawModeExecutor, std::default_delete<DrawModeExecutor> >][m[K’:
+[4.258s] [01m[K/home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/node_with_mode.hpp:140:45:[m[K   required from ‘[01m[Kauto px4_ros2::NodeWithModeExecutor<ModeExecutorT, OwnedModeT, OtherModesT>::createModeExecutor(std::index_sequence<__var_indices ...>) [with long unsigned int ...Idx = {}; ModeExecutorT = DrawModeExecutor; OwnedModeT = DrawFlightMode; OtherModesT = {}; std::index_sequence<__var_indices ...> = std::integer_sequence<long unsigned int>][m[K’
+[4.258s] [01m[K/home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/node_with_mode.hpp:112:40:[m[K   required from ‘[01m[Kpx4_ros2::NodeWithModeExecutor<ModeExecutorT, OwnedModeT, OtherModesT>::NodeWithModeExecutor(std::string, bool) [with ModeExecutorT = DrawModeExecutor; OwnedModeT = DrawFlightMode; OtherModesT = {}; std::string = std::__cxx11::basic_string<char>][m[K’
+[4.258s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:4:[m[K   required from ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>][m[K’
+[4.258s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >][m[K’
+[4.258s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Alloc = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[4.258s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Alloc = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[4.258s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[4.258s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}; _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>][m[K’
+[4.258s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Alloc = std::allocator<px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode> >; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}][m[K’
+[4.258s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = px4_ros2::NodeWithModeExecutor<DrawModeExecutor, DrawFlightMode>; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const bool&}][m[K’
+[4.258s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:20:54:[m[K   required from here
+[4.258s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:962:30:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KDrawModeExecutor[m[K’
+[4.258s]   962 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+[4.258s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.259s] In file included from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:8[m[K:
+[4.259s] [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:225:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KDrawModeExecutor[m[K’:
+[4.259s]   225 | class [01;36m[KDrawModeExecutor[m[K : public px4_ros2::ModeExecutorBase
+[4.259s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[4.259s] In file included from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/include/mode.hpp:8[m[K,
+[4.259s]                  from [01m[K/home/rudra/custom_flightmode/src/px4_ros2_custom_flight_mode/src/main.cpp:8[m[K:
+[4.259s] [01m[K/home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/mode_executor.hpp:64:16:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void px4_ros2::ModeExecutorBase::onActivate()[m[K’
+[4.259s]    64 |   virtual void [01;36m[KonActivate[m[K() = 0;
+[4.259s]       |                [01;36m[K^~~~~~~~~~[m[K
+[4.259s] [01m[K/home/rudra/custom_flightmode/install/px4_ros2_cpp/include/px4_ros2/components/mode_executor.hpp:69:16:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void px4_ros2::ModeExecutorBase::onDeactivate(px4_ros2::ModeExecutorBase::DeactivateReason)[m[K’
+[4.260s]    69 |   virtual void [01;36m[KonDeactivate[m[K(DeactivateReason reason) = 0;
+[4.260s]       |                [01;36m[K^~~~~~~~~~~~[m[K
+[4.260s] gmake[2]: *** [CMakeFiles/draw_r.dir/build.make:76: CMakeFiles/draw_r.dir/src/main.cpp.o] Error 1
+[4.260s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/draw_r.dir/all] Error 2
+[4.260s] gmake: *** [Makefile:146: all] Error 2
+[4.260s] Invoked command in '/home/rudra/custom_flightmode/build/draw_flight_mode' returned '2': AMENT_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp:/home/rudra/custom_flightmode/install/px4_msgs:/home/rudra/ros2_ws/install/talker_listener:/home/rudra/ros2_ws/install/first_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/rudra/custom_flightmode/install/px4_ros2_cpp/lib:/home/rudra/custom_flightmode/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rudra/custom_flightmode/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rudra/custom_flightmode/build/draw_flight_mode -- -j12 -l12
