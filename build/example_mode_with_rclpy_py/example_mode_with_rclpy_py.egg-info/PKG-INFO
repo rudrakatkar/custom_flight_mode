@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: example_mode_with_rclpy_py
+Version: 0.0.1
+Summary: Example
+Author: beat kueng
+Author-email: beat-kueng@gmx.net
+License: BSD-3-Clause
+Keywords: ROS
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Requires-Dist: setuptools
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: keywords
+Dynamic: license
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: summary
